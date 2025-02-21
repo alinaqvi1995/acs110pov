@@ -21,14 +21,14 @@
 
             <div class="swiper-slide">
                 <div class="image-layer-two"
-                    style="background-image: url(assets/images/backgrounds/main-slider-2-1.jpg);"></div>
+                    style="background-image: url(frontend/assets/images/backgrounds/main-slider-2-1.jpg);"></div>
                 <!-- /.image-layer -->
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="main-slider-two__content">
                                 <div class="main-slider-two__shape-1 zoom-fade-2">
-                                    <img src="assets/images/shapes/main-slider-two-shape-1.png" alt="">
+                                    <img src="frontend/assets/images/shapes/main-slider-two-shape-1.png" alt="">
                                 </div>
                                 <h4 class="main-slider-two__sub-title">Only Organic Products</h4>
                                 <h2 class="main-slider-two__title">Stay Healthy <span>&</span> <br> Eat Organic
@@ -46,14 +46,14 @@
 
             <div class="swiper-slide">
                 <div class="image-layer-two"
-                    style="background-image: url(assets/images/backgrounds/main-slider-2-2.jpg);"></div>
+                    style="background-image: url(frontend/assets/images/backgrounds/main-slider-2-2.jpg);"></div>
                 <!-- /.image-layer -->
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="main-slider-two__content">
                                 <div class="main-slider-two__shape-1 zoom-fade-2">
-                                    <img src="assets/images/shapes/main-slider-two-shape-1.png" alt="">
+                                    <img src="frontend/assets/images/shapes/main-slider-two-shape-1.png" alt="">
                                 </div>
                                 <h4 class="main-slider-two__sub-title">Only Organic Products</h4>
                                 <h2 class="main-slider-two__title">Stay Healthy <span>&</span> <br> Eat Organic
@@ -71,14 +71,14 @@
 
             <div class="swiper-slide">
                 <div class="image-layer-two"
-                    style="background-image: url(assets/images/backgrounds/main-slider-2-3.jpg);"></div>
+                    style="background-image: url(frontend/assets/images/backgrounds/main-slider-2-3.jpg);"></div>
                 <!-- /.image-layer -->
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="main-slider-two__content">
                                 <div class="main-slider-two__shape-1 zoom-fade-2">
-                                    <img src="assets/images/shapes/main-slider-two-shape-1.png" alt="">
+                                    <img src="frontend/assets/images/shapes/main-slider-two-shape-1.png" alt="">
                                 </div>
                                 <h4 class="main-slider-two__sub-title">Only Organic Products</h4>
                                 <h2 class="main-slider-two__title">Stay Healthy <span>&</span> <br> Eat Organic
@@ -113,11 +113,11 @@
                 <div class="feature-two__single">
                     <div class="feature-two__single-inner">
                         <div class="feature-two__shape-1">
-                            <img src="assets/images/shapes/feature-two-shape-1.png" alt="">
+                            <img src="frontend/assets/images/shapes/feature-two-shape-1.png" alt="">
                         </div>
                         <div class="feature-two__img-box">
                             <div class="feature-two__img">
-                                <img src="assets/images/resources/feature-two-img-1.jpg" alt="">
+                                <img src="frontend/assets/images/resources/feature-two-img-1.jpg" alt="">
                             </div>
                         </div>
                         <div class="feature-two__content">
@@ -137,11 +137,11 @@
                 <div class="feature-two__single">
                     <div class="feature-two__single-inner">
                         <div class="feature-two__shape-1">
-                            <img src="assets/images/shapes/feature-two-shape-1.png" alt="">
+                            <img src="frontend/assets/images/shapes/feature-two-shape-1.png" alt="">
                         </div>
                         <div class="feature-two__img-box">
                             <div class="feature-two__img">
-                                <img src="assets/images/resources/feature-two-img-2.jpg" alt="">
+                                <img src="frontend/assets/images/resources/feature-two-img-2.jpg" alt="">
                             </div>
                         </div>
                         <div class="feature-two__content">
@@ -161,11 +161,11 @@
                 <div class="feature-two__single">
                     <div class="feature-two__single-inner">
                         <div class="feature-two__shape-1">
-                            <img src="assets/images/shapes/feature-two-shape-1.png" alt="">
+                            <img src="frontend/assets/images/shapes/feature-two-shape-1.png" alt="">
                         </div>
                         <div class="feature-two__img-box">
                             <div class="feature-two__img">
-                                <img src="assets/images/resources/feature-two-img-3.jpg" alt="">
+                                <img src="frontend/assets/images/resources/feature-two-img-3.jpg" alt="">
                             </div>
                         </div>
                         <div class="feature-two__content">
@@ -189,9 +189,9 @@
 <section class="categories-two">
     <div class="categories-two__bg-box">
         <div class="categories-two__bg-img-1"
-            style="background-image: url(assets/images/backgrounds/categories-two-bg-img-1.jpg);"></div>
+            style="background-image: url(frontend/assets/images/backgrounds/categories-two-bg-img-1.jpg);"></div>
         <div class="categories-two__ripped-paper"
-            style="background-image: url(assets/images/shapes/categories-two-ripped-paper.png);"></div>
+            style="background-image: url(frontend/assets/images/shapes/categories-two-ripped-paper.png);"></div>
     </div>
     <div class="container">
         <div class="section-title text-center">
@@ -267,10 +267,10 @@
 <!--About Two Start-->
 <section class="about-two">
     <div class="about-two__shape-4 zoominout">
-        <img src="assets/images/shapes/about-two-shape-4.png" alt="">
+        <img src="frontend/assets/images/shapes/about-two-shape-4.png" alt="">
     </div>
     <div class="about-two__shape-5 img-bounce">
-        <img src="assets/images/shapes/about-two-shape-5.png" alt="">
+        <img src="frontend/assets/images/shapes/about-two-shape-5.png" alt="">
     </div>
     <div class="container">
         <div class="row">
@@ -320,19 +320,19 @@
                     <div class="about-two__img-box wow slideInRight" data-wow-delay="100ms"
                         data-wow-duration="2500ms">
                         <div class="about-two__img-1">
-                            <img src="assets/images/resources/about-two-img-1.jpg" alt="">
+                            <img src="frontend/assets/images/resources/about-two-img-1.jpg" alt="">
                             <div class="about-two__shape-1 float-bob-y">
-                                <img src="assets/images/shapes/about-two-shape-1.png" alt="">
+                                <img src="frontend/assets/images/shapes/about-two-shape-1.png" alt="">
                             </div>
                             <div class="about-two__shape-2 zoominout">
-                                <img src="assets/images/shapes/about-two-shape-2.png" alt="">
+                                <img src="frontend/assets/images/shapes/about-two-shape-2.png" alt="">
                             </div>
                             <div class="about-two__shape-3 float-bob-x">
-                                <img src="assets/images/shapes/about-two-shape-3.png" alt="">
+                                <img src="frontend/assets/images/shapes/about-two-shape-3.png" alt="">
                             </div>
                         </div>
                         <div class="about-two__img-2">
-                            <img src="assets/images/resources/about-two-img-2.jpg" alt="">
+                            <img src="frontend/assets/images/resources/about-two-img-2.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -350,10 +350,10 @@
                 <div class="banner-two__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                     <div class="banner-two__inner">
                         <div class="banner-two__img-1">
-                            <img src="assets/images/resources/banner-two-img-1.png" alt="">
+                            <img src="frontend/assets/images/resources/banner-two-img-1.png" alt="">
                         </div>
                         <div class="banner-two__shape-1">
-                            <img src="assets/images/shapes/banner-two-shape-1.png" alt="">
+                            <img src="frontend/assets/images/shapes/banner-two-shape-1.png" alt="">
                         </div>
                         <p class="banner-two__tagline">10% <span>off</span></p>
                         <h3 class="banner-two__title">Daily Organic
@@ -370,10 +370,10 @@
                     data-wow-duration="2500ms">
                     <div class="banner-two__inner">
                         <div class="banner-two__img-1">
-                            <img src="assets/images/resources/banner-two-img-2.png" alt="">
+                            <img src="frontend/assets/images/resources/banner-two-img-2.png" alt="">
                         </div>
                         <div class="banner-two__shape-1">
-                            <img src="assets/images/shapes/banner-two-shape-2.png" alt="">
+                            <img src="frontend/assets/images/shapes/banner-two-shape-2.png" alt="">
                         </div>
                         <p class="banner-two__tagline">10% <span>off</span></p>
                         <h3 class="banner-two__title">Daily Healthy
@@ -393,7 +393,7 @@
 <!--Video One Start-->
 <section class="video-one">
     <div class="video-one-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
-        style="background-image: url(assets/images/backgrounds/video-one-bg.jpg)"></div>
+        style="background-image: url(frontend/assets/images/backgrounds/video-one-bg.jpg)"></div>
     <div class="video-one-border"></div>
     <div class="video-one-border video-one-border-two"></div>
     <div class="video-one-border video-one-border-three"></div>
@@ -413,7 +413,7 @@
                         </a>
                     </div>
                     <div class="video-one__shape">
-                        <img src="assets/images/shapes/video-one-shape-1.png" alt="">
+                        <img src="frontend/assets/images/shapes/video-one-shape-1.png" alt="">
                     </div>
                     <h2 class="video-one__video-title">Be healthy & eat only
                         <br> fresh organic vegetables</h2>
@@ -426,12 +426,12 @@
 
 <!--Cta One Start-->
 <section class="cta-one">
-    <div class="cta-one__bg-img" style="background-image: url(assets/images/backgrounds/cta-one-bg-img-1.png);">
+    <div class="cta-one__bg-img" style="background-image: url(frontend/assets/images/backgrounds/cta-one-bg-img-1.png);">
     </div>
     <div class="container">
         <div class="cta-one__inner">
             <div class="cta-one__img-1">
-                <img src="assets/images/resources/cta-one-img-1.png" alt="">
+                <img src="frontend/assets/images/resources/cta-one-img-1.png" alt="">
             </div>
             <div class="cta-one__left">
                 <div class="cta-one__title-box">
@@ -481,7 +481,7 @@
                         <div class="hot-products__single-inner">
                             <div class="hot-products__img-box">
                                 <div class="hot-products__img">
-                                    <img src="assets/images/resources/hot-product-1-1.jpg" alt="">
+                                    <img src="frontend/assets/images/resources/hot-product-1-1.jpg" alt="">
                                 </div>
                             </div>
                             <div class="hot-products__content">
@@ -512,7 +512,7 @@
                         <div class="hot-products__single-inner">
                             <div class="hot-products__img-box">
                                 <div class="hot-products__img">
-                                    <img src="assets/images/resources/hot-product-1-2.jpg" alt="">
+                                    <img src="frontend/assets/images/resources/hot-product-1-2.jpg" alt="">
                                 </div>
                             </div>
                             <div class="hot-products__content">
@@ -543,7 +543,7 @@
                         <div class="hot-products__single-inner">
                             <div class="hot-products__img-box">
                                 <div class="hot-products__img">
-                                    <img src="assets/images/resources/hot-product-1-3.jpg" alt="">
+                                    <img src="frontend/assets/images/resources/hot-product-1-3.jpg" alt="">
                                 </div>
                             </div>
                             <div class="hot-products__content">
@@ -574,7 +574,7 @@
                         <div class="hot-products__single-inner">
                             <div class="hot-products__img-box">
                                 <div class="hot-products__img">
-                                    <img src="assets/images/resources/hot-product-1-4.jpg" alt="">
+                                    <img src="frontend/assets/images/resources/hot-product-1-4.jpg" alt="">
                                 </div>
                             </div>
                             <div class="hot-products__content">
@@ -605,7 +605,7 @@
                         <div class="hot-products__single-inner">
                             <div class="hot-products__img-box">
                                 <div class="hot-products__img">
-                                    <img src="assets/images/resources/hot-product-1-5.jpg" alt="">
+                                    <img src="frontend/assets/images/resources/hot-product-1-5.jpg" alt="">
                                 </div>
                             </div>
                             <div class="hot-products__content">
@@ -637,7 +637,7 @@
                         <div class="hot-products__single-inner">
                             <div class="hot-products__img-box">
                                 <div class="hot-products__img">
-                                    <img src="assets/images/resources/hot-product-1-6.jpg" alt="">
+                                    <img src="frontend/assets/images/resources/hot-product-1-6.jpg" alt="">
                                 </div>
                             </div>
                             <div class="hot-products__content">
@@ -668,7 +668,7 @@
                         <div class="hot-products__single-inner">
                             <div class="hot-products__img-box">
                                 <div class="hot-products__img">
-                                    <img src="assets/images/resources/hot-product-1-7.jpg" alt="">
+                                    <img src="frontend/assets/images/resources/hot-product-1-7.jpg" alt="">
                                 </div>
                             </div>
                             <div class="hot-products__content">
@@ -700,7 +700,7 @@
                         <div class="hot-products__single-inner">
                             <div class="hot-products__img-box">
                                 <div class="hot-products__img">
-                                    <img src="assets/images/resources/hot-product-1-8.jpg" alt="">
+                                    <img src="frontend/assets/images/resources/hot-product-1-8.jpg" alt="">
                                 </div>
                             </div>
                             <div class="hot-products__content">
@@ -745,12 +745,12 @@
                 <div class="gallery-one__single">
                     <div class="gallery-one__img-box">
                         <div class="gallery-one__img">
-                            <img src="assets/images/resources/gallery-1-1.jpg" alt="">
+                            <img src="frontend/assets/images/resources/gallery-1-1.jpg" alt="">
                         </div>
                         <div class="gallery-one__content-box">
                             <div class="gallery-one__content">
                                 <div class="gallery-one__shape-1">
-                                    <img src="assets/images/shapes/gallery-one-shape-1.png" alt="">
+                                    <img src="frontend/assets/images/shapes/gallery-one-shape-1.png" alt="">
                                 </div>
                                 <div class="gallery-one__title-box">
                                     <h3 class="gallery-one__title"><a href="portfolio-details.html">Healthy
@@ -772,12 +772,12 @@
                 <div class="gallery-one__single">
                     <div class="gallery-one__img-box">
                         <div class="gallery-one__img">
-                            <img src="assets/images/resources/gallery-1-2.jpg" alt="">
+                            <img src="frontend/assets/images/resources/gallery-1-2.jpg" alt="">
                         </div>
                         <div class="gallery-one__content-box">
                             <div class="gallery-one__content">
                                 <div class="gallery-one__shape-1">
-                                    <img src="assets/images/shapes/gallery-one-shape-1.png" alt="">
+                                    <img src="frontend/assets/images/shapes/gallery-one-shape-1.png" alt="">
                                 </div>
                                 <div class="gallery-one__title-box">
                                     <h3 class="gallery-one__title"><a href="portfolio-details.html">Healthy
@@ -799,12 +799,12 @@
                 <div class="gallery-one__single">
                     <div class="gallery-one__img-box">
                         <div class="gallery-one__img">
-                            <img src="assets/images/resources/gallery-1-3.jpg" alt="">
+                            <img src="frontend/assets/images/resources/gallery-1-3.jpg" alt="">
                         </div>
                         <div class="gallery-one__content-box">
                             <div class="gallery-one__content">
                                 <div class="gallery-one__shape-1">
-                                    <img src="assets/images/shapes/gallery-one-shape-1.png" alt="">
+                                    <img src="frontend/assets/images/shapes/gallery-one-shape-1.png" alt="">
                                 </div>
                                 <div class="gallery-one__title-box">
                                     <h3 class="gallery-one__title"><a href="portfolio-details.html">Healthy
@@ -826,12 +826,12 @@
                 <div class="gallery-one__single">
                     <div class="gallery-one__img-box">
                         <div class="gallery-one__img">
-                            <img src="assets/images/resources/gallery-1-4.jpg" alt="">
+                            <img src="frontend/assets/images/resources/gallery-1-4.jpg" alt="">
                         </div>
                         <div class="gallery-one__content-box">
                             <div class="gallery-one__content">
                                 <div class="gallery-one__shape-1">
-                                    <img src="assets/images/shapes/gallery-one-shape-1.png" alt="">
+                                    <img src="frontend/assets/images/shapes/gallery-one-shape-1.png" alt="">
                                 </div>
                                 <div class="gallery-one__title-box">
                                     <h3 class="gallery-one__title"><a href="portfolio-details.html">Healthy
@@ -856,15 +856,15 @@
 <!--Deal One Start-->
 <section class="deal-one">
     <div class="deal-one__shape-4 float-bob-x">
-        <img src="assets/images/shapes/deal-one-shape-4.png" alt="">
+        <img src="frontend/assets/images/shapes/deal-one-shape-4.png" alt="">
     </div>
     <div class="deal-one__shape-5 zoominout">
-        <img src="assets/images/shapes/deal-one-shape-5.png" alt="">
+        <img src="frontend/assets/images/shapes/deal-one-shape-5.png" alt="">
     </div>
     <div class="deal-one__bg-img"
-        style="background-image: url(assets/images/backgrounds/deal-one-bg-img-.jpg);"></div>
+        style="background-image: url(frontend/assets/images/backgrounds/deal-one-bg-img-.jpg);"></div>
     <div class="deal-one__bg-img-2"
-        style="background-image: url(assets/images/backgrounds/deal-one-bg-img-2.png);"></div>
+        style="background-image: url(frontend/assets/images/backgrounds/deal-one-bg-img-2.png);"></div>
     <div class="container">
         <div class="row">
             <div class="col-xl-6 col-lg-8">
@@ -891,15 +891,15 @@
                 <div class="deal-one__right">
                     <div class="deal-one__img wow slideInRight" data-wow-delay="100ms"
                         data-wow-duration="2500ms">
-                        <img src="assets/images/resources/deal-one-img-1.png" alt="">
+                        <img src="frontend/assets/images/resources/deal-one-img-1.png" alt="">
                         <div class="deal-one__shape-1 zoominout">
-                            <img src="assets/images/shapes/deal-one-shape-1.png" alt="">
+                            <img src="frontend/assets/images/shapes/deal-one-shape-1.png" alt="">
                         </div>
                         <div class="deal-one__shape-2 float-bob-x">
-                            <img src="assets/images/shapes/deal-one-shape-2.png" alt="">
+                            <img src="frontend/assets/images/shapes/deal-one-shape-2.png" alt="">
                         </div>
                         <div class="deal-one__shape-3 zoominout">
-                            <img src="assets/images/shapes/deal-one-shape-3.png" alt="">
+                            <img src="frontend/assets/images/shapes/deal-one-shape-3.png" alt="">
                         </div>
                         <div class="deal-one__big-text">Healthy</div>
                     </div>
@@ -924,7 +924,7 @@
                 <div class="news-one__single">
                     <div class="news-one__img-box">
                         <div class="news-one__img">
-                            <img src="assets/images/blog/news-1-1.jpg" alt="">
+                            <img src="frontend/assets/images/blog/news-1-1.jpg" alt="">
                         </div>
                     </div>
                     <div class="news-one__content-box">
@@ -958,7 +958,7 @@
                 <div class="news-one__single">
                     <div class="news-one__img-box">
                         <div class="news-one__img">
-                            <img src="assets/images/blog/news-1-2.jpg" alt="">
+                            <img src="frontend/assets/images/blog/news-1-2.jpg" alt="">
                         </div>
                     </div>
                     <div class="news-one__content-box">
@@ -992,7 +992,7 @@
                 <div class="news-one__single">
                     <div class="news-one__img-box">
                         <div class="news-one__img">
-                            <img src="assets/images/blog/news-1-3.jpg" alt="">
+                            <img src="frontend/assets/images/blog/news-1-3.jpg" alt="">
                         </div>
                     </div>
                     <div class="news-one__content-box">
@@ -1031,20 +1031,20 @@
     <div class="container">
         <div class="subscribe-one__inner">
             <div class="subscribe-one__shape-1 float-bob-x">
-                <img src="assets/images/shapes/subscribe-one-shape-1.png" alt="">
+                <img src="frontend/assets/images/shapes/subscribe-one-shape-1.png" alt="">
             </div>
             <div class="subscribe-one__shape-2 float-bob-y">
-                <img src="assets/images/shapes/subscribe-one-shape-2.png" alt="">
+                <img src="frontend/assets/images/shapes/subscribe-one-shape-2.png" alt="">
             </div>
             <div class="subscribe-one__shape-4 float-bob-y">
-                <img src="assets/images/shapes/subscribe-one-shape-4.png" alt="">
+                <img src="frontend/assets/images/shapes/subscribe-one-shape-4.png" alt="">
             </div>
             <div class="subscribe-one__shape-5 zoominout">
-                <img src="assets/images/shapes/subscribe-one-shape-5.png" alt="">
+                <img src="frontend/assets/images/shapes/subscribe-one-shape-5.png" alt="">
             </div>
             <div class="subscribe-one__inner-content">
                 <div class="subscribe-one__shape-3 float-bob-x">
-                    <img src="assets/images/shapes/subscribe-one-shape-3.png" alt="">
+                    <img src="frontend/assets/images/shapes/subscribe-one-shape-3.png" alt="">
                 </div>
                 <div class="row">
                     <div class="col-xl-6">
@@ -1061,7 +1061,7 @@
                     <div class="col-xl-6">
                         <div class="subscribe-one__right">
                             <div class="subscribe-one__shape-6 float-bob-x">
-                                <img src="assets/images/shapes/subscribe-one-shape-6.png" alt="">
+                                <img src="frontend/assets/images/shapes/subscribe-one-shape-6.png" alt="">
                             </div>
                             <div class="subscribe-one__form-box">
                                 <form class="subscribe-one__form mc-form" data-url="MC_FORM_URL">

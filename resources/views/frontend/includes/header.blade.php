@@ -70,7 +70,7 @@
                                                         <div class="col-lg-3">
                                                             <div class="home-showcase__item">
                                                                 <div class="home-showcase__image">
-                                                                    <img src="assets/images/home-showcase/home-showcase-1-1.jpg"
+                                                                    <img src="frontend/assets/images/home-showcase/home-showcase-1-1.jpg"
                                                                         alt="">
                                                                     <div class="home-showcase__buttons">
                                                                         <a href="index.html"
@@ -93,7 +93,7 @@
                                                         <div class="col-lg-3">
                                                             <div class="home-showcase__item">
                                                                 <div class="home-showcase__image">
-                                                                    <img src="assets/images/home-showcase/home-showcase-1-2.jpg"
+                                                                    <img src="frontend/assets/images/home-showcase/home-showcase-1-2.jpg"
                                                                         alt="">
                                                                     <div class="home-showcase__buttons">
                                                                         <a href="index2.html"
@@ -116,7 +116,7 @@
                                                         <div class="col-lg-3">
                                                             <div class="home-showcase__item">
                                                                 <div class="home-showcase__image">
-                                                                    <img src="assets/images/home-showcase/home-showcase-1-3.jpg"
+                                                                    <img src="frontend/assets/images/home-showcase/home-showcase-1-3.jpg"
                                                                         alt="">
                                                                     <div class="home-showcase__buttons">
                                                                         <a href="index3.html"
@@ -139,7 +139,7 @@
                                                         <div class="col-lg-3">
                                                             <div class="home-showcase__item">
                                                                 <div class="home-showcase__image">
-                                                                    <img src="assets/images/home-showcase/home-showcase-1-4.jpg"
+                                                                    <img src="frontend/assets/images/home-showcase/home-showcase-1-4.jpg"
                                                                         alt="">
                                                                     <div class="home-showcase__buttons">
                                                                         <a href="index-dark.html"
