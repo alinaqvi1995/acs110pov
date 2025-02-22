@@ -7,7 +7,7 @@ Contact: Themesbrand@gmail.com
 File: Layout Js File
 */
 
-(function() {
+(function () {
 
     'use strict';
 

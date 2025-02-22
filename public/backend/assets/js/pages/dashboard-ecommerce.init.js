@@ -47,7 +47,7 @@ function loadCharts() {
     if (areachartmini6Colors) {
         var options1 = {
             series: [{
-                data: [50, 15, 35, 62, 23, 56, 44, 12, 62, 23, 56, 44, 12, 62, 23, 56, 44, 12, 62, 23, 56, 44, 12, 44, 12, 62, 23, 56, 44, ]
+                data: [50, 15, 35, 62, 23, 56, 44, 12, 62, 23, 56, 44, 12, 62, 23, 56, 44, 12, 62, 23, 56, 44, 12, 44, 12, 62, 23, 56, 44,]
             }],
             chart: {
                 type: 'bar',
@@ -71,7 +71,7 @@ function loadCharts() {
                 },
                 y: {
                     title: {
-                        formatter: function(seriesName) {
+                        formatter: function (seriesName) {
                             return ''
                         }
                     }
@@ -118,7 +118,7 @@ function loadCharts() {
                 },
                 y: {
                     title: {
-                        formatter: function(seriesName) {
+                        formatter: function (seriesName) {
                             return ''
                         }
                     }
@@ -146,7 +146,7 @@ function loadCharts() {
 
         var option;
 
-        const categories = (function() {
+        const categories = (function () {
             let now = new Date();
             let res = [];
             let len = 10;
@@ -156,7 +156,7 @@ function loadCharts() {
             }
             return res;
         })();
-        const categories2 = (function() {
+        const categories2 = (function () {
             let res = [];
             let len = 10;
             while (len--) {
@@ -164,7 +164,7 @@ function loadCharts() {
             }
             return res;
         })();
-        const data = (function() {
+        const data = (function () {
             let res = [];
             let len = 10;
             while (len--) {
@@ -172,7 +172,7 @@ function loadCharts() {
             }
             return res;
         })();
-        const data2 = (function() {
+        const data2 = (function () {
             let res = [];
             let len = 0;
             while (len < 10) {
@@ -201,14 +201,12 @@ function loadCharts() {
                 bottom: '0%',
                 top: '10%',
                 containLabel: true,
-                borderColor: 'rgba(0, 0, 0, 0)',
+                borderColor: 'rgba(0, 0, 0, 0)', 
             },
             toolbox: {
                 show: false,
                 feature: {
-                    dataView: {
-                        readOnly: false
-                    },
+                    dataView: { readOnly: false },
                     restore: {},
                     saveAsImage: {}
                 }
@@ -220,7 +218,7 @@ function loadCharts() {
                 end: 100
             },
             xAxis: [
-
+            
                 {
                     type: 'category',
                     boundaryGap: true,
@@ -231,9 +229,10 @@ function loadCharts() {
                     boundaryGap: true,
                     data: categories2,
                 },
-
+                
             ],
-            yAxis: [{
+            yAxis: [
+                {
                     type: 'value',
                     scale: true,
                     name: 'Price',
@@ -264,7 +263,8 @@ function loadCharts() {
 
                 }
             ],
-            series: [{
+            series: [
+                {
                     name: 'Total Orders',
                     type: 'bar',
                     xAxisIndex: 1,
@@ -279,7 +279,7 @@ function loadCharts() {
             ]
         };
         app.count = 11;
-        setInterval(function() {
+        setInterval(function () {
             let axisData = new Date().toLocaleTimeString().replace(/^\D*/, '');
             data.shift();
             data.push(Math.round(Math.random() * 1000));
@@ -290,14 +290,16 @@ function loadCharts() {
             categories2.shift();
             categories2.push(app.count++);
             myChart.setOption({
-                xAxis: [{
+                xAxis: [
+                    {
                         data: categories
                     },
                     {
                         data: categories2
                     }
                 ],
-                series: [{
+                series: [
+                    {
                         data: data
                     },
                     {
@@ -315,7 +317,7 @@ function loadCharts() {
 
     //Order Status
     var orderStatusColors = getChartColorsArray("orderStatus");
-    if (orderStatusColors) {
+    if (orderStatusColors) { 
         var chartDom = document.getElementById('orderStatus');
         var orderStatusChart = echarts.init(chartDom, null, {
             renderer: 'canvas',
@@ -333,19 +335,10 @@ function loadCharts() {
             toolbox: {
                 show: false,
                 feature: {
-                    mark: {
-                        show: true
-                    },
-                    dataView: {
-                        show: true,
-                        readOnly: false
-                    },
-                    restore: {
-                        show: true
-                    },
-                    saveAsImage: {
-                        show: true
-                    }
+                    mark: { show: true },
+                    dataView: { show: true, readOnly: false },
+                    restore: { show: true },
+                    saveAsImage: { show: true }
                 }
             },
             grid: {
@@ -355,37 +348,25 @@ function loadCharts() {
                 top: '-50%',
                 containLabel: true
             },
-            series: [{
-                name: 'Nightingale Chart',
-                type: 'pie',
-                radius: [30, 120],
-                center: ['50%', '50%'],
-                roseType: 'area',
-                itemStyle: {
-                    borderRadius: 8
-                },
-                data: [{
-                        value: 40,
-                        name: 'New'
+            series: [
+                {
+                    name: 'Nightingale Chart',
+                    type: 'pie',
+                    radius: [30, 120],
+                    center: ['50%', '50%'],
+                    roseType: 'area',
+                    itemStyle: {
+                        borderRadius: 8
                     },
-                    {
-                        value: 49,
-                        name: 'Delivered'
-                    },
-                    {
-                        value: 32,
-                        name: 'Cancelled'
-                    },
-                    {
-                        value: 28,
-                        name: 'Refund'
-                    },
-                    {
-                        value: 30,
-                        name: 'Pending'
-                    },
-                ]
-            }]
+                    data: [
+                        { value: 40, name: 'New' },
+                        { value: 49, name: 'Delivered' },
+                        { value: 32, name: 'Cancelled' },
+                        { value: 28, name: 'Refund' },
+                        { value: 30, name: 'Pending' },
+                    ]
+                }
+            ]
         };
 
         option && orderStatusChart.setOption(option);
@@ -393,7 +374,7 @@ function loadCharts() {
 
     //Sales Earning
     var salesEarningColors = getChartColorsArray("salesEarning");
-    if (salesEarningColors) {
+    if (salesEarningColors) { 
         var chartDom = document.getElementById('salesEarning');
         var salesEarningChart = echarts.init(chartDom);
 
@@ -435,7 +416,8 @@ function loadCharts() {
                     }
                 }
             },
-            series: [{
+            series: [
+                {
                     name: 'Purchase',
                     type: 'line',
                     step: 'start',
@@ -491,7 +473,7 @@ function loadCharts() {
                             fontSize: '17px'
                         },
                         value: {
-                            formatter: function(val) {
+                            formatter: function (val) {
                                 return parseInt(val);
                             },
                             fontSize: '36px',
@@ -526,7 +508,7 @@ function loadCharts() {
     }
 }
 
-window.addEventListener("resize", function() {
+window.addEventListener("resize", function () {
     setTimeout(() => {
         loadCharts();
     }, 250);
