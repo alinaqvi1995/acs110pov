@@ -1977,9 +1977,9 @@
                 <div class="col-6">
                     <button type="button" class="btn btn-light w-100" id="reset-layout">Reset</button>
                 </div>
-                <div class="col-6">
+                {{-- <div class="col-6">
                     <a href="#!" target="_blank" class="btn btn-primary w-100">Buy Now</a>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
@@ -1989,12 +1989,13 @@
     <script src="backend/assets/libs/list.js/dist/list.min.js"></script>
     <script src="backend/assets/libs/list.pagination.js/dist/list.pagination.min.js"></script>
     <script src="backend/assets/libs/sweetalert2/dist/sweetalert2.min.js"></script>
-    <!-- ckeditor -->
     <script src="backend/assets/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
-    <!-- ecommerce-customer -->
     <script src="backend/assets/js/pages/ecommerce-customer.init.js"></script>
-    <!-- App js -->
     <script src="backend/assets/js/app.js"></script>
+    <script src="backend/assets/libs/apexcharts/dist/apexcharts.min.js"></script>
+    <script src="backend/assets/libs/echarts/dist/echarts.min.js"></script>
+    <script src="backend/assets/libs/swiper/swiper-bundle.min.js"></script>
+    <script src="backend/assets/js/pages/dashboard-ecommerce.init.js"></script>
 </body>
 
 </html>

@@ -1,16 +1,15 @@
-<!--Site Footer Start-->
 <footer class="site-footer">
     <div class="site-footer__bg"
-        style="background-image: url(frontend/assets/images/backgrounds/site-footer-bg-img.png);"></div>
+        style="background-image: url(assets/images/backgrounds/site-footer-bg-img.png);"></div>
     <div class="site-footer__ripped-paper"
-        style="background-image: url(frontend/assets/images/shapes/site-footer-ripped-paper.png);"></div>
+        style="background-image: url(assets/images/shapes/site-footer-ripped-paper.png);"></div>
     <div class="container">
         <div class="site-footer__top">
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="footer-widget__column footer-widget__about">
                         <div class="footer-widget__logo">
-                            <a href="index.html"><img src="https://indigoshopify.com/assets/img/logo.png" alt=""></a>
+                            <a href="index.html"><img src="assets/images/resources/footer-logo.png" alt=""></a>
                         </div>
                         <div class="footer-widget__about-text-box">
                             <p class="footer-widget__about-text">We’re Providing Everyday Fresh <br> and
@@ -70,37 +69,37 @@
                         <ul class="footer-widget__gallery-list list-unstyled clearfix">
                             <li>
                                 <div class="footer-widget__gallery-img">
-                                    <img src="frontend/assets/images/resources/footer-widget-gallery-img-1.jpg" alt="">
+                                    <img src="assets/images/resources/footer-widget-gallery-img-1.jpg" alt="">
                                     <a href="portfolio-details.html"><span class="fa fa-link"></span></a>
                                 </div>
                             </li>
                             <li>
                                 <div class="footer-widget__gallery-img">
-                                    <img src="frontend/assets/images/resources/footer-widget-gallery-img-2.jpg" alt="">
+                                    <img src="assets/images/resources/footer-widget-gallery-img-2.jpg" alt="">
                                     <a href="portfolio-details.html"><span class="fa fa-link"></span></a>
                                 </div>
                             </li>
                             <li>
                                 <div class="footer-widget__gallery-img">
-                                    <img src="frontend/assets/images/resources/footer-widget-gallery-img-3.jpg" alt="">
+                                    <img src="assets/images/resources/footer-widget-gallery-img-3.jpg" alt="">
                                     <a href="portfolio-details.html"><span class="fa fa-link"></span></a>
                                 </div>
                             </li>
                             <li>
                                 <div class="footer-widget__gallery-img">
-                                    <img src="frontend/assets/images/resources/footer-widget-gallery-img-4.jpg" alt="">
+                                    <img src="assets/images/resources/footer-widget-gallery-img-4.jpg" alt="">
                                     <a href="portfolio-details.html"><span class="fa fa-link"></span></a>
                                 </div>
                             </li>
                             <li>
                                 <div class="footer-widget__gallery-img">
-                                    <img src="frontend/assets/images/resources/footer-widget-gallery-img-5.jpg" alt="">
+                                    <img src="assets/images/resources/footer-widget-gallery-img-5.jpg" alt="">
                                     <a href="portfolio-details.html"><span class="fa fa-link"></span></a>
                                 </div>
                             </li>
                             <li>
                                 <div class="footer-widget__gallery-img">
-                                    <img src="frontend/assets/images/resources/footer-widget-gallery-img-6.jpg" alt="">
+                                    <img src="assets/images/resources/footer-widget-gallery-img-6.jpg" alt="">
                                     <a href="portfolio-details.html"><span class="fa fa-link"></span></a>
                                 </div>
                             </li>
@@ -134,4 +133,3 @@
         </div>
     </div>
 </footer>
-<!--Site Footer End-->

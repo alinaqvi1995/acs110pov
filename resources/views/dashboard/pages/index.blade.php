@@ -1,7 +1,5 @@
 @extends('dashboard.layouts.app')
-
 @section('title', 'Dashboard')
-
 @section('content')
     <div class="main-content">
         <div class="page-content wrapper">
