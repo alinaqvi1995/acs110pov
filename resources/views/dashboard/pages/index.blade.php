@@ -261,7 +261,7 @@
                                                     </ul>
                                                 </div>
                                                 <div class="text-end">
-                                                    <h5 class="fs-md text-primary mb-0">$15.99</h5>
+                                                    <h5 class="fs-md text-primary mb-0">RS 15.99</h5>
                                                 </div>
                                                 <div class="flex-shrink-0">
                                                     <button class="btn btn-secondary btn-icon btn-sm"><i
@@ -291,7 +291,7 @@
                                                     </ul>
                                                 </div>
                                                 <div class="text-end">
-                                                    <h5 class="fs-md text-primary mb-0">$84.99</h5>
+                                                    <h5 class="fs-md text-primary mb-0">RS 84.99</h5>
                                                 </div>
                                                 <div class="flex-shrink-0">
                                                     <button class="btn btn-secondary btn-icon btn-sm"><i
@@ -321,7 +321,7 @@
                                                     </ul>
                                                 </div>
                                                 <div class="text-end">
-                                                    <h5 class="fs-md text-primary mb-0">$149.99</h5>
+                                                    <h5 class="fs-md text-primary mb-0">RS 149.99</h5>
                                                 </div>
                                                 <div class="flex-shrink-0">
                                                     <button class="btn btn-secondary btn-icon btn-sm"><i
@@ -351,7 +351,7 @@
                                                     </ul>
                                                 </div>
                                                 <div class="text-end">
-                                                    <h5 class="fs-md text-primary mb-0">$245.00</h5>
+                                                    <h5 class="fs-md text-primary mb-0">RS 245.00</h5>
                                                 </div>
                                                 <div class="flex-shrink-0">
                                                     <button class="btn btn-secondary btn-icon btn-sm"><i
@@ -381,7 +381,7 @@
                                                     </ul>
                                                 </div>
                                                 <div class="text-end">
-                                                    <h5 class="fs-md text-primary mb-0">$74.63</h5>
+                                                    <h5 class="fs-md text-primary mb-0">RS 74.63</h5>
                                                 </div>
                                                 <div class="flex-shrink-0">
                                                     <button class="btn btn-secondary btn-icon btn-sm"><i
@@ -411,7 +411,7 @@
                                                     </ul>
                                                 </div>
                                                 <div class="text-end">
-                                                    <h5 class="fs-md text-primary mb-0">$245.74</h5>
+                                                    <h5 class="fs-md text-primary mb-0">RS 245.74</h5>
                                                 </div>
                                                 <div class="flex-shrink-0">
                                                     <button class="btn btn-secondary btn-icon btn-sm"><i

@@ -1,6 +1,9 @@
 @extends('frontend.layouts.app')
 @section('title', "Indigo - Pakistan's Favorite Grocery Store for Best Prices & Free Delivery")
 @section('content')
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
     <section class="main-slider-three">
         <div class="main-slider-three__bg-shape-2"
             style="background-image: url(frontend/assets/images/shapes/main-slider-three-bg-shape-2.png);"></div>
@@ -47,19 +50,19 @@
                 <div class="col-xl-9 col-lg-8">
                     <div class="main-slider-three__right">
                         <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
-            "effect": "fade",
-            "pagination": {
-            "el": "#main-slider-pagination",
-            "type": "bullets",
-            "clickable": true
-            },
-            "navigation": {
-            "nextEl": "#main-slider__swiper-button-next",
-            "prevEl": "#main-slider__swiper-button-prev"
-            },
-            "autoplay": {
-            "delay": 5000
-            }}'>
+                                "effect": "fade",
+                                "pagination": {
+                                "el": "#main-slider-pagination",
+                                "type": "bullets",
+                                "clickable": true
+                                },
+                                "navigation": {
+                                "nextEl": "#main-slider__swiper-button-next",
+                                "prevEl": "#main-slider__swiper-button-prev"
+                                },
+                                "autoplay": {
+                                "delay": 5000
+                                }}'>
                             <div class="swiper-wrapper">
 
                                 <div class="swiper-slide">
@@ -161,7 +164,7 @@
                             </div>
                             <div class="feature-three__content">
                                 <h3 class="feature-three__title">Free shipping</h3>
-                                <p class="feature-three__subtitle">On all orders over $60.00</p>
+                                <p class="feature-three__subtitle">On all orders over RS 60.00</p>
                             </div>
                         </div>
                     </li>
@@ -209,7 +212,7 @@
                                     <i class="fa fa-star"></i>
                                 </div>
                                 <h3 class="hot-products__title"><a href="product-details.html">Bananas</a></h3>
-                                <p class="hot-products__price">$18.00</p>
+                                <p class="hot-products__price">RS 18.00</p>
                                 <div class="hot-products__btn-box">
                                     <a href="cart.html" class="hot-products__btn thm-btn">Add to cart</a>
                                 </div>
@@ -240,7 +243,7 @@
                                     <i class="fa fa-star"></i>
                                 </div>
                                 <h3 class="hot-products__title"><a href="product-details.html">Potatos</a></h3>
-                                <p class="hot-products__price">$22.00</p>
+                                <p class="hot-products__price">RS 22.00</p>
                                 <div class="hot-products__btn-box">
                                     <a href="cart.html" class="hot-products__btn thm-btn">Add to cart</a>
                                 </div>
@@ -271,7 +274,7 @@
                                     <i class="fa fa-star"></i>
                                 </div>
                                 <h3 class="hot-products__title"><a href="product-details.html">Apples</a></h3>
-                                <p class="hot-products__price">$16.00</p>
+                                <p class="hot-products__price">RS 16.00</p>
                                 <div class="hot-products__btn-box">
                                     <a href="cart.html" class="hot-products__btn thm-btn">Add to cart</a>
                                 </div>
@@ -302,7 +305,7 @@
                                     <i class="fa fa-star"></i>
                                 </div>
                                 <h3 class="hot-products__title"><a href="product-details.html">Lettus</a></h3>
-                                <p class="hot-products__price">$9.00</p>
+                                <p class="hot-products__price">RS 9.00</p>
                                 <div class="hot-products__btn-box">
                                     <a href="cart.html" class="hot-products__btn thm-btn">Add to cart</a>
                                 </div>
@@ -627,7 +630,7 @@
                             <p class="hot-product-three__text">There are many new varia of pasages of available
                                 text.</p>
                             <div class="hot-product-three__price-box">
-                                <h4>$86.00 <span>$90.00</span></h4>
+                                <h4>RS 86.00 <span>RS 90.00</span></h4>
                             </div>
                             <div class="hot-product-three__btn-box">
                                 <a href="cart.html" class="thm-btn hot-product-three__btn">Add to cart</a>
@@ -666,7 +669,7 @@
                             <p class="hot-product-three__text">There are many new varia of pasages of available
                                 text.</p>
                             <div class="hot-product-three__price-box">
-                                <h4>$86.00 <span>$90.00</span></h4>
+                                <h4>RS 86.00 <span>RS 90.00</span></h4>
                             </div>
                             <div class="hot-product-three__btn-box">
                                 <a href="cart.html" class="thm-btn hot-product-three__btn">Add to cart</a>
@@ -705,7 +708,7 @@
                             <p class="hot-product-three__text">There are many new varia of pasages of available
                                 text.</p>
                             <div class="hot-product-three__price-box">
-                                <h4>$86.00 <span>$90.00</span></h4>
+                                <h4>RS 86.00 <span>RS 90.00</span></h4>
                             </div>
                             <div class="hot-product-three__btn-box">
                                 <a href="cart.html" class="thm-btn hot-product-three__btn">Add to cart</a>
