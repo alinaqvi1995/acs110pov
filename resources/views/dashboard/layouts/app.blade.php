@@ -37,7 +37,6 @@
         @include('dashboard.includes.header') <!-- Header Include -->
         <div class="main-content">
             @yield('content') 
-
             @include('dashboard.includes.footer') <!-- Footer Include -->
         </div>
     </div>

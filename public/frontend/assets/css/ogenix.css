@@ -498,7 +498,7 @@ ul {
 
 .main-header__top-left-text {
   font-size: 13px;
-  color: #91a589;
+  color: black;
 }
 
 .main-header__social {
@@ -579,11 +579,11 @@ ul {
 
 .main-header__contact-list li .text p {
   font-size: 13px;
-  color: #91a589;
+  color: black;
 }
 
 .main-header__contact-list li .text p a {
-  color: #91a589;
+  color: black;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -1899,11 +1899,11 @@ ul {
 
 .main-header-three__contact-list li .text p {
   font-size: 13px;
-  color: #91a589;
+  color: black;
 }
 
 .main-header-three__contact-list li .text p a {
-  color: #91a589;
+  color: black;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -1934,7 +1934,7 @@ ul {
   bottom: 9px;
   right: -14px;
   width: 2px;
-  background-color: #91a589;
+  background-color: black;
   transform: rotate(8deg);
 }
 
@@ -1948,7 +1948,7 @@ ul {
 
 .main-header-three__menu li a {
   font-size: 13px;
-  color: #91a589;
+  color: black;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -4159,7 +4159,7 @@ ul {
 
 .why-choose-one__text {
   font-size: 14px;
-  color: #91a589;
+  color: black;
   line-height: 26px;
   position: absolute;
   bottom: 17px;
@@ -5432,7 +5432,7 @@ ul {
   display: inline-block;
   font-size: 15px;
   font-weight: 500;
-  color: #91a589;
+  color: black;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   z-index: 1;
@@ -5451,7 +5451,7 @@ ul {
   font-size: 15px;
   font-weight: 500;
   line-height: 26px;
-  color: #91a589;
+  color: black;
   padding-top: 3px;
 }
 
@@ -5518,7 +5518,7 @@ ul {
 }
 
 .footer-widget__contact-list li:last-child .text p a {
-  color: #91a589;
+  color: black;
   transition: all 500ms ease;
 }
 
@@ -5634,11 +5634,11 @@ ul {
   font-size: 15px;
   font-weight: 500;
   margin: 0;
-  color: #91a589;
+  color: black;
 }
 
 .site-footer__bottom-text a {
-  color: #91a589;
+  color: black;
   transition: all 500ms ease;
 }
 
@@ -5657,7 +5657,7 @@ ul {
 }
 
 .site-footer__bottom-menu li a {
-  color: #91a589;
+  color: black;
   font-size: 15px;
   font-weight: 500;
   display: inline-block;
@@ -7191,7 +7191,7 @@ ul {
 }
 
 .why-choose-two__text-1 {
-  color: #91a589;
+  color: black;
 }
 
 .why-choose-two__btn-box {
@@ -7801,7 +7801,7 @@ ul {
 
 .team-two__sub-title {
   font-size: 12px;
-  color: #91a589;
+  color: black;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 0.1em;

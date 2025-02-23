@@ -1,482 +1,198 @@
 @extends('frontend.layouts.app')
-@section('title', 'Home Page')
+@section('title', "Indigo - Pakistan's Favorite Grocery Store for Best Prices & Free Delivery")
 @section('content')
-<!--Main Slider Start-->
-<section class="main-slider-two clearfix">
-    <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
-        "effect": "fade",
-        "pagination": {
-        "el": "#main-slider-pagination",
-        "type": "bullets",
-        "clickable": true
-        },
-        "navigation": {
-        "nextEl": "#main-slider__swiper-button-next",
-        "prevEl": "#main-slider__swiper-button-prev"
-        },
-        "autoplay": {
-        "delay": 5000
-        }}'>
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-                <div class="image-layer-two"
-                    style="background-image: url(frontend/assets/images/backgrounds/main-slider-2-1.jpg);"></div>
-                <!-- /.image-layer -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="main-slider-two__content">
-                                <div class="main-slider-two__shape-1 zoom-fade-2">
-                                    <img src="frontend/assets/images/shapes/main-slider-two-shape-1.png" alt="">
-                                </div>
-                                <h4 class="main-slider-two__sub-title">Only Organic Products</h4>
-                                <h2 class="main-slider-two__title">Stay Healthy <span>&</span> <br> Eat Organic
-                                </h2>
-                                <div class="main-slider-two__btn-box">
-                                    <a href="about.html" class="thm-btn main-slider-two__btn-one">Learn more</a>
-                                    <a href="product-details.html" class="thm-btn main-slider-two__btn-two">Shop
-                                        now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="image-layer-two"
-                    style="background-image: url(frontend/assets/images/backgrounds/main-slider-2-2.jpg);"></div>
-                <!-- /.image-layer -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="main-slider-two__content">
-                                <div class="main-slider-two__shape-1 zoom-fade-2">
-                                    <img src="frontend/assets/images/shapes/main-slider-two-shape-1.png" alt="">
-                                </div>
-                                <h4 class="main-slider-two__sub-title">Only Organic Products</h4>
-                                <h2 class="main-slider-two__title">Stay Healthy <span>&</span> <br> Eat Organic
-                                </h2>
-                                <div class="main-slider-two__btn-box">
-                                    <a href="about.html" class="thm-btn main-slider-two__btn-one">Learn more</a>
-                                    <a href="product-details.html" class="thm-btn main-slider-two__btn-two">Shop
-                                        now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="image-layer-two"
-                    style="background-image: url(frontend/assets/images/backgrounds/main-slider-2-3.jpg);"></div>
-                <!-- /.image-layer -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="main-slider-two__content">
-                                <div class="main-slider-two__shape-1 zoom-fade-2">
-                                    <img src="frontend/assets/images/shapes/main-slider-two-shape-1.png" alt="">
-                                </div>
-                                <h4 class="main-slider-two__sub-title">Only Organic Products</h4>
-                                <h2 class="main-slider-two__title">Stay Healthy <span>&</span> <br> Eat Organic
-                                </h2>
-                                <div class="main-slider-two__btn-box">
-                                    <a href="about.html" class="thm-btn main-slider-two__btn-one">Learn more</a>
-                                    <a href="product-details.html" class="thm-btn main-slider-two__btn-two">Shop
-                                        now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-
-        <!-- If we need navigation buttons -->
-        <div class="swiper-pagination" id="main-slider-pagination"></div>
-
-    </div>
-</section>
-<!--Main Slider End-->
-
-<!--Feature Two Start-->
-<section class="feature-two">
-    <div class="container">
-        <div class="row">
-            <!--Feature Two Single Start-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                <div class="feature-two__single">
-                    <div class="feature-two__single-inner">
-                        <div class="feature-two__shape-1">
-                            <img src="frontend/assets/images/shapes/feature-two-shape-1.png" alt="">
-                        </div>
-                        <div class="feature-two__img-box">
-                            <div class="feature-two__img">
-                                <img src="frontend/assets/images/resources/feature-two-img-1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="feature-two__content">
-                            <h3 class="feature-two__title"><a href="agriculture-services.html">Agriculture
-                                    products</a></h3>
-                            <p class="feature-two__sub-title">Vegetables, fruits & berries</p>
-                            <div class="feature-two__btn-box">
-                                <a href="agriculture-services.html" class="thm-btn feature-two__btn">Shop</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Feature Two Single End-->
-            <!--Feature Two Single Start-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-                <div class="feature-two__single">
-                    <div class="feature-two__single-inner">
-                        <div class="feature-two__shape-1">
-                            <img src="frontend/assets/images/shapes/feature-two-shape-1.png" alt="">
-                        </div>
-                        <div class="feature-two__img-box">
-                            <div class="feature-two__img">
-                                <img src="frontend/assets/images/resources/feature-two-img-2.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="feature-two__content">
-                            <h3 class="feature-two__title"><a href="farming-products.html">Farming products</a>
-                            </h3>
-                            <p class="feature-two__sub-title">Eggs, meat & milk</p>
-                            <div class="feature-two__btn-box">
-                                <a href="farming-products.html" class="thm-btn feature-two__btn">Shop</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Feature Two Single End-->
-            <!--Feature Two Single Start-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
-                <div class="feature-two__single">
-                    <div class="feature-two__single-inner">
-                        <div class="feature-two__shape-1">
-                            <img src="frontend/assets/images/shapes/feature-two-shape-1.png" alt="">
-                        </div>
-                        <div class="feature-two__img-box">
-                            <div class="feature-two__img">
-                                <img src="frontend/assets/images/resources/feature-two-img-3.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="feature-two__content">
-                            <h3 class="feature-two__title"><a href="organic-services.html">Dry fruits
-                                    products</a></h3>
-                            <p class="feature-two__sub-title">Dry fruits, Nuts & product</p>
-                            <div class="feature-two__btn-box">
-                                <a href="organic-services.html" class="thm-btn feature-two__btn">Shop</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Feature Two Single End-->
-        </div>
-    </div>
-</section>
-<!--Feature Two End-->
-
-<!--Categories Two Start-->
-<section class="categories-two">
-    <div class="categories-two__bg-box">
-        <div class="categories-two__bg-img-1"
-            style="background-image: url(frontend/assets/images/backgrounds/categories-two-bg-img-1.jpg);"></div>
-        <div class="categories-two__ripped-paper"
-            style="background-image: url(frontend/assets/images/shapes/categories-two-ripped-paper.png);"></div>
-    </div>
-    <div class="container">
-        <div class="section-title text-center">
-            <span class="section-title__tagline">Checkout New Products</span>
-            <h2 class="section-title__title">Introdusing latest products</h2>
-        </div>
-        <div class="row">
-            <!--Categories Two Single Start-->
-            <div class="col-xl-2 col-lg-4 col-md-4">
-                <div class="categories-two__single" style="--accent-color: #9c72cc;">
-                    <div class="categories-two__icon">
-                        <span class="icon-vegetable"></span>
-                    </div>
-                    <h3 class="categories-two__title"><a href="agriculture-services.html">Vegetables</a></h3>
-                </div>
-            </div>
-            <!--Categories Two Single End-->
-            <!--Categories Two Single Start-->
-            <div class="col-xl-2 col-lg-4 col-md-4">
-                <div class="categories-two__single" style="--accent-color: #6cbc94;">
-                    <div class="categories-two__icon categories-two__icon-2">
-                        <span class="icon-fruits"></span>
-                    </div>
-                    <h3 class="categories-two__title"><a href="farming-products.html">Fresh fruits</a></h3>
-                </div>
-            </div>
-            <!--Categories Two Single End-->
-            <!--Categories Two Single Start-->
-            <div class="col-xl-2 col-lg-4 col-md-4">
-                <div class="categories-two__single" style="--accent-color: #50a72c;">
-                    <div class="categories-two__icon categories-two__icon-3">
-                        <span class="icon-cinnamon"></span>
-                    </div>
-                    <h3 class="categories-two__title"><a href="organic-services.html">Spices</a></h3>
-                </div>
-            </div>
-            <!--Categories Two Single End-->
-            <!--Categories Two Single Start-->
-            <div class="col-xl-2 col-lg-4 col-md-4">
-                <div class="categories-two__single" style="--accent-color: #d7a955;">
-                    <div class="categories-two__icon categories-two__icon-4">
-                        <span class="icon-walnut"></span>
-                    </div>
-                    <h3 class="categories-two__title"><a href="delivery-services.html">Dry fruits</a></h3>
-                </div>
-            </div>
-            <!--Categories Two Single End-->
-            <!--Categories Two Single Start-->
-            <div class="col-xl-2 col-lg-4 col-md-4">
-                <div class="categories-two__single" style="--accent-color: #5580d7;">
-                    <div class="categories-two__icon categories-two__icon-5">
-                        <span class="icon-iced-coffee"></span>
-                    </div>
-                    <h3 class="categories-two__title"><a href="agriculture-services.html">Beverages</a></h3>
-                </div>
-            </div>
-            <!--Categories Two Single End-->
-            <!--Categories Two Single Start-->
-            <div class="col-xl-2 col-lg-4 col-md-4">
-                <div class="categories-two__single" style="--accent-color: #dd637c;">
-                    <div class="categories-two__icon categories-two__icon-6">
-                        <span class="icon-chop"></span>
-                    </div>
-                    <h3 class="categories-two__title"><a href="delivery-services.html">Meat</a></h3>
-                </div>
-            </div>
-            <!--Categories Two Single End-->
-        </div>
-    </div>
-</section>
-<!--Categories Two End-->
-
-<!--About Two Start-->
-<section class="about-two">
-    <div class="about-two__shape-4 zoominout">
-        <img src="frontend/assets/images/shapes/about-two-shape-4.png" alt="">
-    </div>
-    <div class="about-two__shape-5 img-bounce">
-        <img src="frontend/assets/images/shapes/about-two-shape-5.png" alt="">
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-6">
-                <div class="about-two__left">
-                    <div class="section-title text-left">
-                        <span class="section-title__tagline">Get to Know us</span>
-                        <h2 class="section-title__title">Provider of only organic
-                            & healthy food</h2>
-                    </div>
-                    <p class="about-two__text">There are many variations of passages of Lorem Ipsum available,
-                        but the majority have suffered alteration in some form, by injected humour, or
-                        randomised words which don't look even.</p>
-                    <ul class="about-two__points-box list-unstyled">
-                        <li>
-                            <div class="about-two__content">
-                                <div class="icon">
-                                    <span class="icon-tick"></span>
-                                </div>
-                                <div class="text">
-                                    <p>Local growth</p>
-                                </div>
-                            </div>
-                            <p class="about-two__points-text">Lorem ipsum dolor sited amet consectetur notted.
-                            </p>
-                        </li>
-                        <li>
-                            <div class="about-two__content">
-                                <div class="icon">
-                                    <span class="icon-tick"></span>
-                                </div>
-                                <div class="text">
-                                    <p>Healthy food</p>
-                                </div>
-                            </div>
-                            <p class="about-two__points-text">Lorem ipsum dolor sited amet consectetur notted.
-                            </p>
-                        </li>
-                    </ul>
-                    <div class="about-two__btn-box">
-                        <a href="about.html" class="about-two__btn thm-btn">Discover more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6">
-                <div class="about-two__right">
-                    <div class="about-two__img-box wow slideInRight" data-wow-delay="100ms"
-                        data-wow-duration="2500ms">
-                        <div class="about-two__img-1">
-                            <img src="frontend/assets/images/resources/about-two-img-1.jpg" alt="">
-                            <div class="about-two__shape-1 float-bob-y">
-                                <img src="frontend/assets/images/shapes/about-two-shape-1.png" alt="">
-                            </div>
-                            <div class="about-two__shape-2 zoominout">
-                                <img src="frontend/assets/images/shapes/about-two-shape-2.png" alt="">
-                            </div>
-                            <div class="about-two__shape-3 float-bob-x">
-                                <img src="frontend/assets/images/shapes/about-two-shape-3.png" alt="">
-                            </div>
-                        </div>
-                        <div class="about-two__img-2">
-                            <img src="frontend/assets/images/resources/about-two-img-2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--About Two End-->
-
-<!--Banner Two Start-->
-<section class="banner-two">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-6 col-lg-6">
-                <div class="banner-two__left wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                    <div class="banner-two__inner">
-                        <div class="banner-two__img-1">
-                            <img src="frontend/assets/images/resources/banner-two-img-1.png" alt="">
-                        </div>
-                        <div class="banner-two__shape-1">
-                            <img src="frontend/assets/images/shapes/banner-two-shape-1.png" alt="">
-                        </div>
-                        <p class="banner-two__tagline">10% <span>off</span></p>
-                        <h3 class="banner-two__title">Daily Organic
-                            <br> Vegetables</h3>
-                        <div class="banner-two__btn-box">
-                            <a href="product-details.html" class="banner-two__btn thm-btn">Shop selected
-                                items</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6">
-                <div class="banner-two__right wow slideInRight" data-wow-delay="100ms"
-                    data-wow-duration="2500ms">
-                    <div class="banner-two__inner">
-                        <div class="banner-two__img-1">
-                            <img src="frontend/assets/images/resources/banner-two-img-2.png" alt="">
-                        </div>
-                        <div class="banner-two__shape-1">
-                            <img src="frontend/assets/images/shapes/banner-two-shape-2.png" alt="">
-                        </div>
-                        <p class="banner-two__tagline">10% <span>off</span></p>
-                        <h3 class="banner-two__title">Daily Healthy
-                            <br> Breakfast</h3>
-                        <div class="banner-two__btn-box">
-                            <a href="product-details.html" class="banner-two__btn thm-btn">Shop selected
-                                items</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--Banner Two End-->
-
-<!--Video One Start-->
-<section class="video-one">
-    <div class="video-one-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
-        style="background-image: url(frontend/assets/images/backgrounds/video-one-bg.jpg)"></div>
-    <div class="video-one-border"></div>
-    <div class="video-one-border video-one-border-two"></div>
-    <div class="video-one-border video-one-border-three"></div>
-    <div class="video-one-border video-one-border-four"></div>
-    <div class="video-one-border video-one-border-five"></div>
-    <div class="video-one-border video-one-border-six"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="video-one__inner">
-                    <div class="video-one__video-link">
-                        <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
-                            <div class="video-one__video-icon">
-                                <span class="fa fa-play"></span>
-                                <i class="ripple"></i>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="video-one__shape">
-                        <img src="frontend/assets/images/shapes/video-one-shape-1.png" alt="">
-                    </div>
-                    <h2 class="video-one__video-title">Be healthy & eat only
-                        <br> fresh organic vegetables</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--Video One End-->
-
-<!--Cta One Start-->
-<section class="cta-one">
-    <div class="cta-one__bg-img" style="background-image: url(frontend/assets/images/backgrounds/cta-one-bg-img-1.png);">
-    </div>
-    <div class="container">
-        <div class="cta-one__inner">
-            <div class="cta-one__img-1">
-                <img src="frontend/assets/images/resources/cta-one-img-1.png" alt="">
-            </div>
-            <div class="cta-one__left">
-                <div class="cta-one__title-box">
-                    <span class="cta-one__tagline">Need Ogenix Help?</span>
-                    <h2 class="cta-one__title">We’re leader in organic market</h2>
-                </div>
-            </div>
-            <div class="cta-one__right">
-                <div class="cta-one__btn-box">
-                    <a href="about.html" class="cta-one__btn thm-btn">Discover more</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--Cta One End-->
-
-<!--Hot Products Two Start-->
-<section class="hot-products-two">
-    <div class="container">
-        <div class="hot-products-two__top">
+    <section class="main-slider-three">
+        <div class="main-slider-three__bg-shape-2"
+            style="background-image: url(frontend/assets/images/shapes/main-slider-three-bg-shape-2.png);"></div>
+        <div class="main-slider-three__ripped-paper"
+            style="background-image: url(frontend/assets/images/shapes/main-slider-three-pipped-paper.png);"></div>
+        <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-6">
-                    <div class="section-title text-left">
-                        <span class="section-title__tagline">Checkout New Products</span>
-                        <h2 class="section-title__title">Introdusing new products</h2>
+                <div class="col-xl-3 col-lg-4">
+                    <div class="main-slider-three__categories-box">
+                        <div class="main-slider-three__categories">
+                            <h3 class="main-slider-three__categories-title">All Categories</h3>
+                            <ul class="main-slider-three__categories-list list-unstyled">
+                                <li><a href="{{ route('frontend.products') }}"><i class="icon-groceries"></i> Grocery & Forzen<span
+                                            class="fas fa-angle-right"></span></a>
+                                </li>
+                                <li class="active"><a href="{{ route('frontend.products') }}"><i class="icon-fruit"></i> Fresh
+                                        Fruits<span class="fas fa-angle-right"></span></a>
+                                </li>
+                                <li><a href="{{ route('frontend.products') }}"><i class="icon-salad-1"></i> Salads<span
+                                            class="fas fa-angle-right"></span></a>
+                                </li>
+                                <li><a href="{{ route('frontend.products') }}"><i class="icon-meat"></i> Fresh Meat<span
+                                            class="fas fa-angle-right"></span></a>
+                                </li>
+                                <li><a href="{{ route('frontend.products') }}"><i class="icon-eggs"></i> Butter & Egg<span
+                                            class="fas fa-angle-right"></span></a>
+                                </li>
+                                <li><a href="{{ route('frontend.products') }}"><i class="icon-milk-box"></i> Milk Cream<span
+                                            class="fas fa-angle-right"></span></a>
+                                </li>
+                                <li><a href="{{ route('frontend.products') }}"><i class="icon-vase"></i> Oil & Vinegers<span
+                                            class="fas fa-angle-right"></span></a>
+                                </li>
+                                <li><a href="{{ route('frontend.products') }}"><i class="icon-french-toast"></i> Bread &
+                                        Bakery<span class="fas fa-angle-right"></span></a>
+                                </li>
+                                <li><a href="{{ route('frontend.products') }}"><i class="icon-corn"></i> Organic<span
+                                            class="fas fa-angle-right"></span></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6">
-                    <div class="hot-products-two__filter-box">
-                        <ul class="hot-products-two__filter style1 post-filter list-unstyled clearfix">
-                            <li data-filter=".filter-item" class="active"><span class="filter-text">All</span>
-                            </li>
-                            <li data-filter=".fruits"><span class="filter-text">Fruits</span></li>
-                            <li data-filter=".vegetables"><span class="filter-text">Vegetables</span></li>
-                            <li data-filter=".fresh"><span class="filter-text">Fresh</span></li>
-                        </ul>
+                <div class="col-xl-9 col-lg-8">
+                    <div class="main-slider-three__right">
+                        <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
+            "effect": "fade",
+            "pagination": {
+            "el": "#main-slider-pagination",
+            "type": "bullets",
+            "clickable": true
+            },
+            "navigation": {
+            "nextEl": "#main-slider__swiper-button-next",
+            "prevEl": "#main-slider__swiper-button-prev"
+            },
+            "autoplay": {
+            "delay": 5000
+            }}'>
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="image-layer-three">
+                                        <img src="frontend/assets/images/backgrounds/main-slider-3-1.png" alt="">
+                                    </div>
+                                    <div class="main-slider-three__bg-shape-1"
+                                        style="background-image: url(frontend/assets/images/shapes/main-slider-three-bg-shape-1.jpg);">
+                                    </div>
+                                    <div class="main-slider-three__content">
+                                        <h4 class="main-slider-three__sub-title">Organic Market
+                                        </h4>
+                                        <h2 class="main-slider-three__title">Eat local & healthy <br>
+                                            organic food
+                                        </h2>
+                                        <div class="main-slider-three__btn-box">
+                                            <a href="product-details.html"
+                                                class="thm-btn main-slider-three__btn">Shop
+                                                now</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="image-layer-three image-layer-three--2">
+                                        <img src="frontend/assets/images/backgrounds/main-slider-3-2.png" alt="">
+                                    </div>
+                                    <div class="main-slider-three__bg-shape-1"
+                                        style="background-image: url(frontend/assets/images/shapes/main-slider-three-bg-shape-1.jpg);">
+                                    </div>
+                                    <div class="main-slider-three__content">
+                                        <h4 class="main-slider-three__sub-title">Organic Market
+                                        </h4>
+                                        <h2 class="main-slider-three__title">Eat local & healthy <br>
+                                            organic food
+                                        </h2>
+                                        <div class="main-slider-three__btn-box">
+                                            <a href="product-details.html"
+                                                class="thm-btn main-slider-three__btn">Shop
+                                                now</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="image-layer-three image-layer-three--3">
+                                        <img src="frontend/assets/images/backgrounds/main-slider-3-3.png" alt="">
+                                    </div>
+                                    <div class="main-slider-three__bg-shape-1"
+                                        style="background-image: url(frontend/assets/images/shapes/main-slider-three-bg-shape-1.jpg);">
+                                    </div>
+                                    <div class="main-slider-three__content">
+                                        <h4 class="main-slider-three__sub-title">Organic Market
+                                        </h4>
+                                        <h2 class="main-slider-three__title">Eat local & healthy <br>
+                                            organic food
+                                        </h2>
+                                        <div class="main-slider-three__btn-box">
+                                            <a href="product-details.html"
+                                                class="thm-btn main-slider-three__btn">Shop
+                                                now</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-pagination" id="main-slider-pagination"></div>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="hot-products-two__bottom">
-            <div class="row filter-layout">
+    </section>
+    <section class="feature-three">
+        <div class="container">
+            <div class="feature-three__inner">
+                <ul class="list-unstyled feature-three__list">
+                    <!--feature Two Single Start-->
+                    <li>
+                        <div class="feature-three__single">
+                            <div class="feature-three__icon">
+                                <span class="icon-global-shipping"></span>
+                            </div>
+                            <div class="feature-three__content">
+                                <h3 class="feature-three__title">Return Policy</h3>
+                                <p class="feature-three__subtitle">Money back guarantee</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--feature Two Single End-->
+                    <!--feature Two Single Start-->
+                    <li>
+                        <div class="feature-three__single">
+                            <div class="feature-three__icon">
+                                <span class="icon-free-delivery"></span>
+                            </div>
+                            <div class="feature-three__content">
+                                <h3 class="feature-three__title">Free shipping</h3>
+                                <p class="feature-three__subtitle">On all orders over $60.00</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--feature Two Single End-->
+                    <!--feature Two Single Start-->
+                    <li>
+                        <div class="feature-three__single">
+                            <div class="feature-three__icon">
+                                <span class="icon-store"></span>
+                            </div>
+                            <div class="feature-three__content">
+                                <h3 class="feature-three__title">Store locator</h3>
+                                <p class="feature-three__subtitle">Find your nearest store</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--feature Two Single End-->
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="hot-products-three">
+        <div class="container">
+            <div class="section-title text-center">
+                <span class="section-title__tagline">Checkout New Products</span>
+                <h2 class="section-title__title">Today’s new hotest products
+                    <br> available now</h2>
+            </div>
+            <div class="row">
                 <!-- Hot Products Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item fresh vegetables">
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                     <div class="hot-products__single">
                         <div class="hot-products__single-inner">
                             <div class="hot-products__img-box">
@@ -507,7 +223,7 @@
                 </div>
                 <!-- Hot Products Two Single End -->
                 <!-- Hot Products Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item fruits fresh">
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                     <div class="hot-products__single">
                         <div class="hot-products__single-inner">
                             <div class="hot-products__img-box">
@@ -538,7 +254,7 @@
                 </div>
                 <!-- Hot Products Two Single End -->
                 <!-- Hot Products Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item fresh vegetables">
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                     <div class="hot-products__single">
                         <div class="hot-products__single-inner">
                             <div class="hot-products__img-box">
@@ -569,7 +285,7 @@
                 </div>
                 <!-- Hot Products Two Single End -->
                 <!-- Hot Products Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item vegetables">
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                     <div class="hot-products__single">
                         <div class="hot-products__single-inner">
                             <div class="hot-products__img-box">
@@ -599,486 +315,932 @@
                     </div>
                 </div>
                 <!-- Hot Products Two Single End -->
-                <!-- Hot Products Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item fruits">
-                    <div class="hot-products__single">
-                        <div class="hot-products__single-inner">
-                            <div class="hot-products__img-box">
-                                <div class="hot-products__img">
-                                    <img src="frontend/assets/images/resources/hot-product-1-5.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="hot-products__content">
-                                <div class="hot-products__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <h3 class="hot-products__title"><a href="product-details.html">Brown Bread</a>
-                                </h3>
-                                <p class="hot-products__price">$23.00</p>
-                                <div class="hot-products__btn-box">
-                                    <a href="cart.html" class="hot-products__btn thm-btn">Add to cart</a>
-                                </div>
-                            </div>
-                            <div class="hot-products__icon-boxes">
-                                <a href="#"><i class="far fa-heart"></i></a>
-                                <a href="#"><i class="fas fa-eye"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Hot Products Two Single End -->
-                <!-- Hot Products Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item vegetables">
-                    <div class="hot-products__single">
-                        <div class="hot-products__single-inner">
-                            <div class="hot-products__img-box">
-                                <div class="hot-products__img">
-                                    <img src="frontend/assets/images/resources/hot-product-1-6.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="hot-products__content">
-                                <div class="hot-products__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <h3 class="hot-products__title"><a href="product-details.html">Lemos</a></h3>
-                                <p class="hot-products__price">$10.00</p>
-                                <div class="hot-products__btn-box">
-                                    <a href="cart.html" class="hot-products__btn thm-btn">Add to cart</a>
-                                </div>
-                            </div>
-                            <div class="hot-products__icon-boxes">
-                                <a href="#"><i class="far fa-heart"></i></a>
-                                <a href="#"><i class="fas fa-eye"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Hot Products Two Single End -->
-                <!-- Hot Products Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item fresh vegetables">
-                    <div class="hot-products__single">
-                        <div class="hot-products__single-inner">
-                            <div class="hot-products__img-box">
-                                <div class="hot-products__img">
-                                    <img src="frontend/assets/images/resources/hot-product-1-7.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="hot-products__content">
-                                <div class="hot-products__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <h3 class="hot-products__title"><a href="product-details.html">Red grapes</a>
-                                </h3>
-                                <p class="hot-products__price">$17.00</p>
-                                <div class="hot-products__btn-box">
-                                    <a href="cart.html" class="hot-products__btn thm-btn">Add to cart</a>
-                                </div>
-                            </div>
-                            <div class="hot-products__icon-boxes">
-                                <a href="#"><i class="far fa-heart"></i></a>
-                                <a href="#"><i class="fas fa-eye"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Hot Products Two Single End -->
-                <!-- Hot Products Two Single Start -->
-                <div class="col-xl-3 col-lg-6 col-md-6 filter-item vegetables">
-                    <div class="hot-products__single">
-                        <div class="hot-products__single-inner">
-                            <div class="hot-products__img-box">
-                                <div class="hot-products__img">
-                                    <img src="frontend/assets/images/resources/hot-product-1-8.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="hot-products__content">
-                                <div class="hot-products__rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                                <h3 class="hot-products__title"><a href="product-details.html">Tomattos</a></h3>
-                                <p class="hot-products__price">$23.00</p>
-                                <div class="hot-products__btn-box">
-                                    <a href="cart.html" class="hot-products__btn thm-btn">Add to cart</a>
-                                </div>
-                            </div>
-                            <div class="hot-products__icon-boxes">
-                                <a href="#"><i class="far fa-heart"></i></a>
-                                <a href="#"><i class="fas fa-eye"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Hot Products Two Single End -->
             </div>
         </div>
-    </div>
-</section>
-<!--Hot Products Two End-->
-
-<!--Gallery One Start-->
-<section class="gallery-one gallery-two">
-    <div class="section-title text-center">
-        <span class="section-title__tagline">Checkout Portfolio</span>
-        <h2 class="section-title__title">We recently completed our
-            <br> few works</h2>
-    </div>
-    <div class="container">
-        <div class="row">
-            <!--Gallery One Single Start-->
-            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-                <div class="gallery-one__single">
-                    <div class="gallery-one__img-box">
-                        <div class="gallery-one__img">
-                            <img src="frontend/assets/images/resources/gallery-1-1.jpg" alt="">
-                        </div>
-                        <div class="gallery-one__content-box">
-                            <div class="gallery-one__content">
-                                <div class="gallery-one__shape-1">
-                                    <img src="frontend/assets/images/shapes/gallery-one-shape-1.png" alt="">
-                                </div>
-                                <div class="gallery-one__title-box">
-                                    <h3 class="gallery-one__title"><a href="portfolio-details.html">Healthy
-                                            food</a></h3>
-                                    <p class="gallery-one__sub-title">Vegan, Organic</p>
-                                </div>
+    </section>
+    <section class="banner-three">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="banner-three__left">
+                        <div class="banner-three__inner">
+                            <div class="banner-three__inner-bg"
+                                style="background-image: url(frontend/assets/images/backgrounds/banner-three-bg-1.jpg);">
                             </div>
-                            <div class="gallery-one__arrow-box">
-                                <a href="portfolio-details.html" class="gallery-one__arrow"><span
-                                        class="icon-right-arrow"></span></a>
+                            <p class="banner-three__tagline">Organic Food</p>
+                            <h3 class="banner-three__title">Fresh <br> Avocado</h3>
+                            <div class="banner-three__btn-box">
+                                <a href="product-details.html" class="banner-three__btn thm-btn">Shop now</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--Gallery One Single End-->
-            <!--Gallery One Single Start-->
-            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-                <div class="gallery-one__single">
-                    <div class="gallery-one__img-box">
-                        <div class="gallery-one__img">
-                            <img src="frontend/assets/images/resources/gallery-1-2.jpg" alt="">
-                        </div>
-                        <div class="gallery-one__content-box">
-                            <div class="gallery-one__content">
-                                <div class="gallery-one__shape-1">
-                                    <img src="frontend/assets/images/shapes/gallery-one-shape-1.png" alt="">
-                                </div>
-                                <div class="gallery-one__title-box">
-                                    <h3 class="gallery-one__title"><a href="portfolio-details.html">Healthy
-                                            food</a></h3>
-                                    <p class="gallery-one__sub-title">Vegan, Organic</p>
-                                </div>
+                <div class="col-xl-3 col-lg-6 wow fadeInUp" data-wow-delay="200ms">
+                    <div class="banner-three__middle">
+                        <div class="banner-three__middle-inner">
+                            <div class="banner-three__img-2">
+                                <img src="frontend/assets/images/resources/banner-three-img-2.png" alt="">
                             </div>
-                            <div class="gallery-one__arrow-box">
-                                <a href="portfolio-details.html" class="gallery-one__arrow"><span
-                                        class="icon-right-arrow"></span></a>
+                            <div class="banner-three__shape-1">
+                                <img src="frontend/assets/images/shapes/banner-three-middel-shape-1.png" alt="">
+                            </div>
+                            <div class="banner-three__middle-offer">
+                                <p>off</p>
+                            </div>
+                            <div class="banner-three__middle-title-box">
+                                <p class="banner-three__middle-tagline">20%</p>
+                                <h3 class="banner-three__middle-title">on All Healthy
+                                    <br> Beverages</h3>
+                            </div>
+                            <div class="banner-three__middle-btn-box">
+                                <a href="product-details.html" class="banner-three__middle-btn thm-btn">Shop now</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--Gallery One Single End-->
-            <!--Gallery One Single Start-->
-            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                <div class="gallery-one__single">
-                    <div class="gallery-one__img-box">
-                        <div class="gallery-one__img">
-                            <img src="frontend/assets/images/resources/gallery-1-3.jpg" alt="">
-                        </div>
-                        <div class="gallery-one__content-box">
-                            <div class="gallery-one__content">
-                                <div class="gallery-one__shape-1">
-                                    <img src="frontend/assets/images/shapes/gallery-one-shape-1.png" alt="">
-                                </div>
-                                <div class="gallery-one__title-box">
-                                    <h3 class="gallery-one__title"><a href="portfolio-details.html">Healthy
-                                            food</a></h3>
-                                    <p class="gallery-one__sub-title">Vegan, Organic</p>
-                                </div>
+                <div class="col-xl-4 col-lg-6 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="banner-three__right">
+                        <div class="banner-three__right-inner">
+                            <div class="banner-three__right-shape-1">
+                                <img src="frontend/assets/images/shapes/banner-three-right-shape-1.png" alt="">
                             </div>
-                            <div class="gallery-one__arrow-box">
-                                <a href="portfolio-details.html" class="gallery-one__arrow"><span
-                                        class="icon-right-arrow"></span></a>
+                            <div class="banner-three__img-3">
+                                <img src="frontend/assets/images/resources/banner-three-img-3.png" alt="">
+                            </div>
+                            <div class="banner-three__right-title-box">
+                                <p class="banner-three__right-tagline">100% Healthy</p>
+                                <h3 class="banner-three__right-title">Healthy <br> Organic Food</h3>
+                            </div>
+                            <div class="banner-three__right-btn-box">
+                                <a href="product-details.html" class="banner-three__right-btn thm-btn">Shop now</a>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <!--Gallery One Single End-->
-            <!--Gallery One Single Start-->
-            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                <div class="gallery-one__single">
-                    <div class="gallery-one__img-box">
-                        <div class="gallery-one__img">
-                            <img src="frontend/assets/images/resources/gallery-1-4.jpg" alt="">
-                        </div>
-                        <div class="gallery-one__content-box">
-                            <div class="gallery-one__content">
-                                <div class="gallery-one__shape-1">
-                                    <img src="frontend/assets/images/shapes/gallery-one-shape-1.png" alt="">
-                                </div>
-                                <div class="gallery-one__title-box">
-                                    <h3 class="gallery-one__title"><a href="portfolio-details.html">Healthy
-                                            food</a></h3>
-                                    <p class="gallery-one__sub-title">Vegan, Organic</p>
-                                </div>
-                            </div>
-                            <div class="gallery-one__arrow-box">
-                                <a href="portfolio-details.html" class="gallery-one__arrow"><span
-                                        class="icon-right-arrow"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Gallery One Single End-->
-        </div>
-    </div>
-</section>
-<!--Gallery One End-->
-
-<!--Deal One Start-->
-<section class="deal-one">
-    <div class="deal-one__shape-4 float-bob-x">
-        <img src="frontend/assets/images/shapes/deal-one-shape-4.png" alt="">
-    </div>
-    <div class="deal-one__shape-5 zoominout">
-        <img src="frontend/assets/images/shapes/deal-one-shape-5.png" alt="">
-    </div>
-    <div class="deal-one__bg-img"
-        style="background-image: url(frontend/assets/images/backgrounds/deal-one-bg-img-.jpg);"></div>
-    <div class="deal-one__bg-img-2"
-        style="background-image: url(frontend/assets/images/backgrounds/deal-one-bg-img-2.png);"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-6 col-lg-8">
-                <div class="deal-one__left">
-                    <div class="section-title text-left">
-                        <span class="section-title__tagline">Sales on Weekly Offers</span>
-                        <h2 class="section-title__title">Our special products deal <br>
-                            of the day</h2>
-                    </div>
-                    <p class="deal-one__text">Lorem ipsum dolor sit amet nsectetur cing elit. Suspe ndisse
-                        suscipit
-                        sagittis leo sit met entum estibu dignissim.</p>
-                    <div class="deal-one__coundown-box">
-                        <div class="default-coundown">
-                            <div class="box">
-                                <div class="countdown time-countdown-two" data-countdown-time="2023/12/07">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-4">
-                <div class="deal-one__right">
-                    <div class="deal-one__img wow slideInRight" data-wow-delay="100ms"
-                        data-wow-duration="2500ms">
-                        <img src="frontend/assets/images/resources/deal-one-img-1.png" alt="">
-                        <div class="deal-one__shape-1 zoominout">
-                            <img src="frontend/assets/images/shapes/deal-one-shape-1.png" alt="">
-                        </div>
-                        <div class="deal-one__shape-2 float-bob-x">
-                            <img src="frontend/assets/images/shapes/deal-one-shape-2.png" alt="">
-                        </div>
-                        <div class="deal-one__shape-3 zoominout">
-                            <img src="frontend/assets/images/shapes/deal-one-shape-3.png" alt="">
-                        </div>
-                        <div class="deal-one__big-text">Healthy</div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--Deal One End-->
-
-<!--News One Start-->
-<section class="news-two">
-    <div class="container">
-        <div class="section-title text-center">
-            <span class="section-title__tagline">From the Blog Posts</span>
-            <h2 class="section-title__title">Latest news updates
-                <br> & articles</h2>
+    </section>
+    <section class="brand-one">
+        <div class="container">
+            <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
+                "0": {
+                    "spaceBetween": 30,
+                    "slidesPerView": 2
+                },
+                "375": {
+                    "spaceBetween": 30,
+                    "slidesPerView": 2
+                },
+                "575": {
+                    "spaceBetween": 30,
+                    "slidesPerView": 3
+                },
+                "767": {
+                    "spaceBetween": 50,
+                    "slidesPerView": 4
+                },
+                "991": {
+                    "spaceBetween": 50,
+                    "slidesPerView": 5
+                },
+                "1199": {
+                    "spaceBetween": 100,
+                    "slidesPerView": 5
+                }
+            }}'>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="frontend/assets/images/brand/brand-1-1.png" alt="">
+                    </div><!-- /.swiper-slide -->
+                    <div class="swiper-slide">
+                        <img src="frontend/assets/images/brand/brand-1-2.png" alt="">
+                    </div><!-- /.swiper-slide -->
+                    <div class="swiper-slide">
+                        <img src="frontend/assets/images/brand/brand-1-3.png" alt="">
+                    </div><!-- /.swiper-slide -->
+                    <div class="swiper-slide">
+                        <img src="frontend/assets/images/brand/brand-1-4.png" alt="">
+                    </div><!-- /.swiper-slide -->
+                    <div class="swiper-slide">
+                        <img src="frontend/assets/images/brand/brand-1-5.png" alt="">
+                    </div><!-- /.swiper-slide -->
+                    <div class="swiper-slide">
+                        <img src="frontend/assets/images/brand/brand-1-1.png" alt="">
+                    </div><!-- /.swiper-slide -->
+                    <div class="swiper-slide">
+                        <img src="frontend/assets/images/brand/brand-1-2.png" alt="">
+                    </div><!-- /.swiper-slide -->
+                    <div class="swiper-slide">
+                        <img src="frontend/assets/images/brand/brand-1-3.png" alt="">
+                    </div><!-- /.swiper-slide -->
+                    <div class="swiper-slide">
+                        <img src="frontend/assets/images/brand/brand-1-4.png" alt="">
+                    </div><!-- /.swiper-slide -->
+                    <div class="swiper-slide">
+                        <img src="frontend/assets/images/brand/brand-1-5.png" alt="">
+                    </div><!-- /.swiper-slide -->
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <!--News One Single Start-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                <div class="news-one__single">
-                    <div class="news-one__img-box">
-                        <div class="news-one__img">
-                            <img src="frontend/assets/images/blog/news-1-1.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="news-one__content-box">
-                        <ul class="news-one__meta list-unstyled">
-                            <li>
-                                <a href="news-details.html"><i class="fa fa-tag"></i>Apartment</a>
-                            </li>
-                            <li>
-                                <a href="news-details.html"><i class="fas fa-user-circle"></i>by Admin</a>
-                            </li>
-                        </ul>
-                        <h3 class="news-one__title"><a href="news-details.html">Which healthy food growth
-                                strategies required</a></h3>
-                        <div class="news-one__bottom">
-                            <div class="news-one__read-more">
-                                <a href="news-details.html">Read More</a>
-                            </div>
-                            <div class="news-one__comment">
-                                <a href="news-details.html"><i class="fas fa-comments"></i>02</a>
-                            </div>
-                        </div>
-                        <div class="news-one__date">
-                            <p>20 Sep</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--News One Single End-->
-            <!--News One Single Start-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-                <div class="news-one__single">
-                    <div class="news-one__img-box">
-                        <div class="news-one__img">
-                            <img src="frontend/assets/images/blog/news-1-2.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="news-one__content-box">
-                        <ul class="news-one__meta list-unstyled">
-                            <li>
-                                <a href="news-details.html"><i class="fa fa-tag"></i>Apartment</a>
-                            </li>
-                            <li>
-                                <a href="news-details.html"><i class="fas fa-user-circle"></i>by Admin</a>
-                            </li>
-                        </ul>
-                        <h3 class="news-one__title"><a href="news-details.html">Donec aliquet blandit enim
-                                feugiat Suspendisse</a></h3>
-                        <div class="news-one__bottom">
-                            <div class="news-one__read-more">
-                                <a href="news-details.html">Read More</a>
-                            </div>
-                            <div class="news-one__comment">
-                                <a href="news-details.html"><i class="fas fa-comments"></i>02</a>
-                            </div>
-                        </div>
-                        <div class="news-one__date">
-                            <p>20 Sep</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--News One Single End-->
-            <!--News One Single Start-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
-                <div class="news-one__single">
-                    <div class="news-one__img-box">
-                        <div class="news-one__img">
-                            <img src="frontend/assets/images/blog/news-1-3.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="news-one__content-box">
-                        <ul class="news-one__meta list-unstyled">
-                            <li>
-                                <a href="news-details.html"><i class="fa fa-tag"></i>Apartment</a>
-                            </li>
-                            <li>
-                                <a href="news-details.html"><i class="fas fa-user-circle"></i>by Admin</a>
-                            </li>
-                        </ul>
-                        <h3 class="news-one__title"><a href="news-details.html">luctus sit amet eu nibh tempus
-                                turpis.</a></h3>
-                        <div class="news-one__bottom">
-                            <div class="news-one__read-more">
-                                <a href="news-details.html">Read More</a>
-                            </div>
-                            <div class="news-one__comment">
-                                <a href="news-details.html"><i class="fas fa-comments"></i>02</a>
-                            </div>
-                        </div>
-                        <div class="news-one__date">
-                            <p>20 Sep</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--News One Single End-->
+    </section>
+    <section class="why-choose-two">
+        <div class="why-choose-two__bg"
+            style="background-image: url(frontend/assets/images/backgrounds/why-choose-two-bg.jpg);"></div>
+        <div class="why-choose-two__shape-1 img-bounce">
+            <img src="frontend/assets/images/shapes/why-choose-two-shape-1.png" alt="">
         </div>
-    </div>
-</section>
-<!--Blog One End-->
-
-<!--Subscribe One Start-->
-<section class="subscribe-one">
-    <div class="container">
-        <div class="subscribe-one__inner">
-            <div class="subscribe-one__shape-1 float-bob-x">
-                <img src="frontend/assets/images/shapes/subscribe-one-shape-1.png" alt="">
-            </div>
-            <div class="subscribe-one__shape-2 float-bob-y">
-                <img src="frontend/assets/images/shapes/subscribe-one-shape-2.png" alt="">
-            </div>
-            <div class="subscribe-one__shape-4 float-bob-y">
-                <img src="frontend/assets/images/shapes/subscribe-one-shape-4.png" alt="">
-            </div>
-            <div class="subscribe-one__shape-5 zoominout">
-                <img src="frontend/assets/images/shapes/subscribe-one-shape-5.png" alt="">
-            </div>
-            <div class="subscribe-one__inner-content">
-                <div class="subscribe-one__shape-3 float-bob-x">
-                    <img src="frontend/assets/images/shapes/subscribe-one-shape-3.png" alt="">
-                </div>
-                <div class="row">
-                    <div class="col-xl-6">
-                        <div class="subscribe-one__left">
-                            <div class="icon">
-                                <span class="icon-folder"></span>
-                            </div>
-                            <div class="subscribe-one__title-box">
-                                <span class="subscribe-one__tagline">Quisque vel ortor</span>
-                                <h2 class="subscribe-one__title">Subscribe to newsletter</h2>
-                            </div>
+        <div class="why-choose-two__shape-2 float-bob-x">
+            <img src="frontend/assets/images/shapes/why-choose-two-shape-2.png" alt="">
+        </div>
+        <div class="why-choose-two__shape-3 float-bob-y">
+            <img src="frontend/assets/images/shapes/why-choose-two-shape-3.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-5">
+                    <div class="why-choose-two__left">
+                        <div class="section-title text-left">
+                            <span class="section-title__tagline">Why Choose Ogenix</span>
+                            <h2 class="section-title__title">Few reasons for people
+                                choosing ogenix</h2>
+                        </div>
+                        <p class="why-choose-two__text-1">Aliquam viverra arcu. Donec aliquet blandit enim.
+                            Suspendisse id quam sed eros tincidunt luctus sit amet eu nibh egestas tempus turpis,
+                            sit amet mattis magna varius non.</p>
+                        <div class="why-choose-two__btn-box">
+                            <a href="about.html" class="thm-btn why-choose-two__btn">Discover more</a>
                         </div>
                     </div>
-                    <div class="col-xl-6">
-                        <div class="subscribe-one__right">
-                            <div class="subscribe-one__shape-6 float-bob-x">
-                                <img src="frontend/assets/images/shapes/subscribe-one-shape-6.png" alt="">
-                            </div>
-                            <div class="subscribe-one__form-box">
-                                <form class="subscribe-one__form mc-form" data-url="MC_FORM_URL">
-                                    <div class="subscribe-one__input-box">
-                                        <input type="email" placeholder="Email Address" name="email">
-                                        <button type="submit" class="subscribe-one__btn"><i
-                                                class="fas fa-paper-plane"></i></button>
+                </div>
+                <div class="col-xl-7 col-lg-7">
+                    <div class="why-choose-two__right">
+                        <ul class="list-unstyled why-choose-two__list">
+                            <li>
+                                <div class="why-choose-two__single">
+                                    <div class="why-choose-two__icon-box">
+                                        <div class="why-choose-two__icon">
+                                            <span class="icon-fresh"></span>
+                                        </div>
+                                        <p class="why-choose-two__icon-text">100% fresh</p>
                                     </div>
-                                </form>
-                                <div class="mc-form__response"></div>
+                                    <p class="why-choose-two__text-2">In ree hour when our power choice is and when
+                                        nothing prevents.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="why-choose-two__single">
+                                    <div class="why-choose-two__icon-box">
+                                        <div class="why-choose-two__icon">
+                                            <span class="icon-package-box"></span>
+                                        </div>
+                                        <p class="why-choose-two__icon-text">Fast deliveries</p>
+                                    </div>
+                                    <p class="why-choose-two__text-2">In ree hour when our power choice is and when
+                                        nothing prevents.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="why-choose-two__single">
+                                    <div class="why-choose-two__icon-box">
+                                        <div class="why-choose-two__icon">
+                                            <span class="icon-organic-food"></span>
+                                        </div>
+                                        <p class="why-choose-two__icon-text">Natural products</p>
+                                    </div>
+                                    <p class="why-choose-two__text-2">In ree hour when our power choice is and when
+                                        nothing prevents.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="why-choose-two__single">
+                                    <div class="why-choose-two__icon-box">
+                                        <div class="why-choose-two__icon">
+                                            <span class="icon-farmer"></span>
+                                        </div>
+                                        <p class="why-choose-two__icon-text">Best farmers</p>
+                                    </div>
+                                    <p class="why-choose-two__text-2">In ree hour when our power choice is and when
+                                        nothing prevents.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="counter-one">
+        <div class="counter-one__bg"
+            style="background-image: url(frontend/assets/images/backgrounds/counter-one-bg-img.png);"></div>
+        <div class="container">
+            <ul class="counter-one__inner list-unstyled">
+                <li class="counter-one__single">
+                    <div class="counter-one__icon">
+                        <i class="icon-customer-service"></i>
+                    </div>
+                    <div class="counter-one__content count-box">
+                        <h3 class="count-text" data-stop="154" data-speed="1500">00</h3>
+                        <p class="counter-one__text">Happy customers</p>
+                    </div>
+                </li>
+                <li class="counter-one__single">
+                    <div class="counter-one__icon">
+                        <i class="icon-farmer-1"></i>
+                    </div>
+                    <div class="counter-one__content count-box">
+                        <h3 class="count-text" data-stop="163" data-speed="1500">00</h3>
+                        <p class="counter-one__text">Expert farmers</p>
+                    </div>
+                </li>
+                <li class="counter-one__single">
+                    <div class="counter-one__icon">
+                        <i class="icon-agriculture"></i>
+                    </div>
+                    <div class="counter-one__content count-box">
+                        <h3 class="count-text" data-stop="360" data-speed="1500">00</h3>
+                        <p class="counter-one__text">New products</p>
+                    </div>
+                </li>
+                <li class="counter-one__single">
+                    <div class="counter-one__icon">
+                        <i class="icon-trophy"></i>
+                    </div>
+                    <div class="counter-one__content count-box">
+                        <h3 class="count-text" data-stop="22" data-speed="1500">00</h3>
+                        <p class="counter-one__text">Awards winning</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="hot-product-three">
+        <div class="container">
+            <div class="section-title text-center">
+                <span class="section-title__tagline">Checkout Products</span>
+                <h2 class="section-title__title">Hot deals of the day & <br> purchase now</h2>
+            </div>
+            <div class="hot-product-three__carousel owl-carousel owl-theme thm-owl__carousel" data-owl-options='{
+                "loop": true,
+                "autoplay": false,
+                "margin": 30,
+                "nav": true,
+                "dots": false,
+                "smartSpeed": 500,
+                "autoplayTimeout": 10000,
+                "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
+                "responsive": {
+                    "0": {
+                        "items": 1
+                    },
+                    "768": {
+                        "items": 1
+                    },
+                    "992": {
+                        "items": 2
+                    },
+                    "1200": {
+                        "items": 2
+                    }
+                }
+            }'>
+                <!--Hot Product Three Single Start-->
+                <div class="item">
+                    <div class="hot-product-three__single">
+                        <div class="hot-product-three__img-box">
+                            <img src="frontend/assets/images/resources/hot-product-three-img-1-1.jpg" alt="">
+                            <div class="hot-product-three__icon-boxes">
+                                <a href="#"><i class="far fa-heart"></i></a>
+                                <a href="#"><i class="fas fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="hot-product-three__content">
+                            <div class="hot-product-three__title-box">
+                                <div class="hot-product-three__rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <h4 class="hot-product-three__title">Red grapes</h4>
+                            </div>
+                            <p class="hot-product-three__text">There are many new varia of pasages of available
+                                text.</p>
+                            <div class="hot-product-three__price-box">
+                                <h4>$86.00 <span>$90.00</span></h4>
+                            </div>
+                            <div class="hot-product-three__btn-box">
+                                <a href="cart.html" class="thm-btn hot-product-three__btn">Add to cart</a>
+                            </div>
+                            <div class="hot-product-three__coundown-box">
+                                <div class="default-coundown">
+                                    <div class="box">
+                                        <div class="countdown time-countdown-two" data-countdown-time="2023/01/01">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Hot Product Three Single End-->
+                <!--Hot Product Three Single Start-->
+                <div class="item">
+                    <div class="hot-product-three__single">
+                        <div class="hot-product-three__img-box">
+                            <img src="frontend/assets/images/resources/hot-product-three-img-1-2.jpg" alt="">
+                            <div class="hot-product-three__icon-boxes">
+                                <a href="#"><i class="far fa-heart"></i></a>
+                                <a href="#"><i class="fas fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="hot-product-three__content">
+                            <div class="hot-product-three__title-box">
+                                <div class="hot-product-three__rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <h4 class="hot-product-three__title">Black grapes</h4>
+                            </div>
+                            <p class="hot-product-three__text">There are many new varia of pasages of available
+                                text.</p>
+                            <div class="hot-product-three__price-box">
+                                <h4>$86.00 <span>$90.00</span></h4>
+                            </div>
+                            <div class="hot-product-three__btn-box">
+                                <a href="cart.html" class="thm-btn hot-product-three__btn">Add to cart</a>
+                            </div>
+                            <div class="hot-product-three__coundown-box">
+                                <div class="default-coundown">
+                                    <div class="box">
+                                        <div class="countdown time-countdown-two" data-countdown-time="2023/02/01">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Hot Product Three Single End-->
+                <!--Hot Product Three Single Start-->
+                <div class="item">
+                    <div class="hot-product-three__single">
+                        <div class="hot-product-three__img-box">
+                            <img src="frontend/assets/images/resources/hot-product-three-img-1-3.jpg" alt="">
+                            <div class="hot-product-three__icon-boxes">
+                                <a href="#"><i class="far fa-heart"></i></a>
+                                <a href="#"><i class="fas fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="hot-product-three__content">
+                            <div class="hot-product-three__title-box">
+                                <div class="hot-product-three__rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <h4 class="hot-product-three__title">Lemos</h4>
+                            </div>
+                            <p class="hot-product-three__text">There are many new varia of pasages of available
+                                text.</p>
+                            <div class="hot-product-three__price-box">
+                                <h4>$86.00 <span>$90.00</span></h4>
+                            </div>
+                            <div class="hot-product-three__btn-box">
+                                <a href="cart.html" class="thm-btn hot-product-three__btn">Add to cart</a>
+                            </div>
+                            <div class="hot-product-three__coundown-box">
+                                <div class="default-coundown">
+                                    <div class="box">
+                                        <div class="countdown time-countdown-two" data-countdown-time="2023/02/05">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Hot Product Three Single End-->
+            </div>
+        </div>
+    </section>
+    {{-- <section class="team-two">
+        <div class="container">
+            <div class="section-title text-center">
+                <span class="section-title__tagline">Meet the Farmers</span>
+                <h2 class="section-title__title">Awesome farmers team <br> here to help you</h2>
+            </div>
+            <div class="row">
+                <!--Team Two Single Start-->
+                <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="team-two__single">
+                        <div class="team-two__img-box">
+                            <div class="team-two__shape-4">
+                                <img src="frontend/assets/images/shapes/team-two-shape-4.png" alt="">
+                            </div>
+                            <div class="team-two__shape-1">
+                                <img src="frontend/assets/images/shapes/team-two-shape-1.png" alt="">
+                                <div class="team-two__img">
+                                    <img src="frontend/assets/images/team/team-2-1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-two__content">
+                            <div class="team-two__shape-2">
+                                <img src="frontend/assets/images/shapes/team-two-shape-2.png" alt="">
+                            </div>
+                            <div class="team-two__shape-3">
+                                <img src="frontend/assets/images/shapes/team-two-shape-3.png" alt="">
+                            </div>
+                            <div class="team-two__title-box">
+                                <h3 class="team-two__title"><a href="team.html">Kevin martin</a></h3>
+                                <p class="team-two__sub-title">Senior Farmer</p>
+                            </div>
+                            <div class="team-two__social-box">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Team Two Single End-->
+                <!--Team Two Single Start-->
+                <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
+                    <div class="team-two__single">
+                        <div class="team-two__img-box">
+                            <div class="team-two__shape-4">
+                                <img src="frontend/assets/images/shapes/team-two-shape-4.png" alt="">
+                            </div>
+                            <div class="team-two__shape-1">
+                                <img src="frontend/assets/images/shapes/team-two-shape-1.png" alt="">
+                                <div class="team-two__img">
+                                    <img src="frontend/assets/images/team/team-2-2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-two__content">
+                            <div class="team-two__shape-2">
+                                <img src="frontend/assets/images/shapes/team-two-shape-2.png" alt="">
+                            </div>
+                            <div class="team-two__shape-3">
+                                <img src="frontend/assets/images/shapes/team-two-shape-3.png" alt="">
+                            </div>
+                            <div class="team-two__title-box">
+                                <h3 class="team-two__title"><a href="team.html">Aleesha brown</a></h3>
+                                <p class="team-two__sub-title">Senior Farmer</p>
+                            </div>
+                            <div class="team-two__social-box">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Team Two Single End-->
+                <!--Team Two Single Start-->
+                <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="team-two__single">
+                        <div class="team-two__img-box">
+                            <div class="team-two__shape-4">
+                                <img src="frontend/assets/images/shapes/team-two-shape-4.png" alt="">
+                            </div>
+                            <div class="team-two__shape-1">
+                                <img src="frontend/assets/images/shapes/team-two-shape-1.png" alt="">
+                                <div class="team-two__img">
+                                    <img src="frontend/assets/images/team/team-2-3.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-two__content">
+                            <div class="team-two__shape-2">
+                                <img src="frontend/assets/images/shapes/team-two-shape-2.png" alt="">
+                            </div>
+                            <div class="team-two__shape-3">
+                                <img src="frontend/assets/images/shapes/team-two-shape-3.png" alt="">
+                            </div>
+                            <div class="team-two__title-box">
+                                <h3 class="team-two__title"><a href="team.html">Mike hardson</a></h3>
+                                <p class="team-two__sub-title">Senior Farmer</p>
+                            </div>
+                            <div class="team-two__social-box">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Team Two Single End-->
+            </div>
+        </div>
+    </section> --}}
+    <section class="testimonial-two">
+        <div class="testimonial-two__bg"
+            style="background-image: url(frontend/assets/images/backgrounds/testimonial-two-bg.jpg);"></div>
+        <div class="testimonial-two__bg-img"
+            style="background-image: url(frontend/assets/images/backgrounds/testimonial-two-bg-img.png);"></div>
+        <div class="testimonial-two__shape-1">
+            <img src="frontend/assets/images/shapes/testimonial-two-shape-1.png" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="testimonial-two__left">
+                        <div class="section-title text-left">
+                            <span class="section-title__tagline">Our Testimonials</span>
+                            <h2 class="section-title__title">What they’re
+                                talking about us</h2>
+                        </div>
+                        <p class="testimonial-two__text-1">Lorem ipsum dolor sit amet, elit sed, ading do eiusmod
+                            tempor incididunt labore et dolore elit, sed do eiusmod.</p>
+                    </div>
+                </div>
+                <div class="col-xl-8">
+                    <div class="testimonial-two__right">
+                        <div class="testimonial-two__carousel owl-carousel owl-theme thm-owl__carousel"
+                            data-owl-options='{
+                            "loop": true,
+                            "autoplay": false,
+                            "margin": 30,
+                            "nav": true,
+                            "dots": false,
+                            "smartSpeed": 500,
+                            "autoplayTimeout": 10000,
+                            "navText": ["<span class=\"icon-left-arrow\"></span>","<span class=\"icon-right-arrow\"></span>"],
+                            "responsive": {
+                                "0": {
+                                    "items": 1
+                                },
+                                "768": {
+                                    "items": 1
+                                },
+                                "992": {
+                                    "items": 2
+                                },
+                                "1200": {
+                                    "items": 2
+                                }
+                            }
+                        }'>
+                            <!--Testimonial Two Single Start-->
+                            <div class="item">
+                                <div class="testimonial-two__single">
+                                    <div class="testimonial-two__content-box">
+                                        <p>Lorem ipsum is simply free text dolor not sit amet, consectetur notted
+                                            adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore
+                                            text.</p>
+                                    </div>
+                                    <div class="testimonial-two__client-info">
+                                        <h4 class="testimonial-two__client-name">Kevin martin</h4>
+                                        <p class="testimonial-two__client-sub-title">Customer</p>
+                                    </div>
+                                    <div class="testimonial-two__img-box">
+                                        <div class="testimonial-two__img">
+                                            <img src="frontend/assets/images/testimonial/testimonial-2-1.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-two__quote">
+                                        <img src="frontend/assets/images/icon/testimonial-two-quote.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Testimonial Two Single End-->
+                            <!--Testimonial Two Single Start-->
+                            <div class="item">
+                                <div class="testimonial-two__single">
+                                    <div class="testimonial-two__content-box">
+                                        <p>Lorem ipsum is simply free text dolor not sit amet, consectetur notted
+                                            adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore
+                                            text.</p>
+                                    </div>
+                                    <div class="testimonial-two__client-info">
+                                        <h4 class="testimonial-two__client-name">Jessica brown</h4>
+                                        <p class="testimonial-two__client-sub-title">Customer</p>
+                                    </div>
+                                    <div class="testimonial-two__img-box">
+                                        <div class="testimonial-two__img">
+                                            <img src="frontend/assets/images/testimonial/testimonial-2-2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-two__quote">
+                                        <img src="frontend/assets/images/icon/testimonial-two-quote.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Testimonial Two Single End-->
+                            <!--Testimonial Two Single Start-->
+                            <div class="item">
+                                <div class="testimonial-two__single">
+                                    <div class="testimonial-two__content-box">
+                                        <p>Lorem ipsum is simply free text dolor not sit amet, consectetur notted
+                                            adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore
+                                            text.</p>
+                                    </div>
+                                    <div class="testimonial-two__client-info">
+                                        <h4 class="testimonial-two__client-name">Sharah albert</h4>
+                                        <p class="testimonial-two__client-sub-title">Customer</p>
+                                    </div>
+                                    <div class="testimonial-two__img-box">
+                                        <div class="testimonial-two__img">
+                                            <img src="frontend/assets/images/testimonial/testimonial-2-3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-two__quote">
+                                        <img src="frontend/assets/images/icon/testimonial-two-quote.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Testimonial Two Single End-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery-three">
+        <div class="container">
+            <div class="gallery-three__carousel owl-carousel owl-theme thm-owl__carousel" data-owl-options='{
+                "loop": true,
+                "autoplay": true,
+                "margin": 30,
+                "nav": false,
+                "dots": false,
+                "smartSpeed": 500,
+                "autoplayTimeout": 10000,
+                "navText": ["<span class=\"icon-up-arrow\"></span>","<span class=\"icon-down-arrow\"></span>"],
+                "responsive": {
+                    "0": {
+                        "items": 1
+                    },
+                    "768": {
+                        "items": 3
+                    },
+                    "992": {
+                        "items": 4
+                    },
+                    "1200": {
+                        "items": 7
+                    }
+                }
+            }'>
+                <!--Gallery Three Single Start-->
+                <div class="item">
+                    <div class="gallery-three__single">
+                        <div class="gallery-three__img">
+                            <img src="frontend/assets/images/gallery/gallery-3-1.jpg" alt="">
+                            <div class="gallery-three__icon">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Gallery Three Single End-->
+                <!--Gallery Three Single Start-->
+                <div class="item">
+                    <div class="gallery-three__single">
+                        <div class="gallery-three__img">
+                            <img src="frontend/assets/images/gallery/gallery-3-2.jpg" alt="">
+                            <div class="gallery-three__icon">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Gallery Three Single End-->
+                <!--Gallery Three Single Start-->
+                <div class="item">
+                    <div class="gallery-three__single">
+                        <div class="gallery-three__img">
+                            <img src="frontend/assets/images/gallery/gallery-3-3.jpg" alt="">
+                            <div class="gallery-three__icon">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Gallery Three Single End-->
+                <!--Gallery Three Single Start-->
+                <div class="item">
+                    <div class="gallery-three__single">
+                        <div class="gallery-three__img">
+                            <img src="frontend/assets/images/gallery/gallery-3-4.jpg" alt="">
+                            <div class="gallery-three__icon">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Gallery Three Single End-->
+                <!--Gallery Three Single Start-->
+                <div class="item">
+                    <div class="gallery-three__single">
+                        <div class="gallery-three__img">
+                            <img src="frontend/assets/images/gallery/gallery-3-5.jpg" alt="">
+                            <div class="gallery-three__icon">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Gallery Three Single End-->
+                <!--Gallery Three Single Start-->
+                <div class="item">
+                    <div class="gallery-three__single">
+                        <div class="gallery-three__img">
+                            <img src="frontend/assets/images/gallery/gallery-3-6.jpg" alt="">
+                            <div class="gallery-three__icon">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Gallery Three Single End-->
+                <!--Gallery Three Single Start-->
+                <div class="item">
+                    <div class="gallery-three__single">
+                        <div class="gallery-three__img">
+                            <img src="frontend/assets/images/gallery/gallery-3-7.jpg" alt="">
+                            <div class="gallery-three__icon">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Gallery Three Single End-->
+            </div>
+        </div>
+    </section>
+    <section class="news-two">
+        <div class="container">
+            <div class="section-title text-center">
+                <span class="section-title__tagline">From the Blog Posts</span>
+                <h2 class="section-title__title">Latest news updates
+                    <br> & articles</h2>
+            </div>
+            <div class="row">
+                <!--News One Single Start-->
+                <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="news-one__single">
+                        <div class="news-one__img-box">
+                            <div class="news-one__img">
+                                <img src="frontend/assets/images/blog/news-1-1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="news-one__content-box">
+                            <ul class="news-one__meta list-unstyled">
+                                <li>
+                                    <a href="news-details.html"><i class="fa fa-tag"></i>Apartment</a>
+                                </li>
+                                <li>
+                                    <a href="news-details.html"><i class="fas fa-user-circle"></i>by Admin</a>
+                                </li>
+                            </ul>
+                            <h3 class="news-one__title"><a href="news-details.html">Which healthy food growth
+                                    strategies required</a></h3>
+                            <div class="news-one__bottom">
+                                <div class="news-one__read-more">
+                                    <a href="news-details.html">Read More</a>
+                                </div>
+                                <div class="news-one__comment">
+                                    <a href="news-details.html"><i class="fas fa-comments"></i>02</a>
+                                </div>
+                            </div>
+                            <div class="news-one__date">
+                                <p>20 Sep</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--News One Single End-->
+                <!--News One Single Start-->
+                <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
+                    <div class="news-one__single">
+                        <div class="news-one__img-box">
+                            <div class="news-one__img">
+                                <img src="frontend/assets/images/blog/news-1-2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="news-one__content-box">
+                            <ul class="news-one__meta list-unstyled">
+                                <li>
+                                    <a href="news-details.html"><i class="fa fa-tag"></i>Apartment</a>
+                                </li>
+                                <li>
+                                    <a href="news-details.html"><i class="fas fa-user-circle"></i>by Admin</a>
+                                </li>
+                            </ul>
+                            <h3 class="news-one__title"><a href="news-details.html">Donec aliquet blandit enim
+                                    feugiat Suspendisse</a></h3>
+                            <div class="news-one__bottom">
+                                <div class="news-one__read-more">
+                                    <a href="news-details.html">Read More</a>
+                                </div>
+                                <div class="news-one__comment">
+                                    <a href="news-details.html"><i class="fas fa-comments"></i>02</a>
+                                </div>
+                            </div>
+                            <div class="news-one__date">
+                                <p>20 Sep</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--News One Single End-->
+                <!--News One Single Start-->
+                <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="news-one__single">
+                        <div class="news-one__img-box">
+                            <div class="news-one__img">
+                                <img src="frontend/assets/images/blog/news-1-3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="news-one__content-box">
+                            <ul class="news-one__meta list-unstyled">
+                                <li>
+                                    <a href="news-details.html"><i class="fa fa-tag"></i>Apartment</a>
+                                </li>
+                                <li>
+                                    <a href="news-details.html"><i class="fas fa-user-circle"></i>by Admin</a>
+                                </li>
+                            </ul>
+                            <h3 class="news-one__title"><a href="news-details.html">luctus sit amet eu nibh tempus
+                                    turpis.</a></h3>
+                            <div class="news-one__bottom">
+                                <div class="news-one__read-more">
+                                    <a href="news-details.html">Read More</a>
+                                </div>
+                                <div class="news-one__comment">
+                                    <a href="news-details.html"><i class="fas fa-comments"></i>02</a>
+                                </div>
+                            </div>
+                            <div class="news-one__date">
+                                <p>20 Sep</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--News One Single End-->
+            </div>
+        </div>
+    </section>
+    <section class="subscribe-one">
+        <div class="container">
+            <div class="subscribe-one__inner">
+                <div class="subscribe-one__shape-1 float-bob-x">
+                    <img src="frontend/assets/images/shapes/subscribe-one-shape-1.png" alt="">
+                </div>
+                <div class="subscribe-one__shape-2 float-bob-y">
+                    <img src="frontend/assets/images/shapes/subscribe-one-shape-2.png" alt="">
+                </div>
+                <div class="subscribe-one__shape-4 float-bob-y">
+                    <img src="frontend/assets/images/shapes/subscribe-one-shape-4.png" alt="">
+                </div>
+                <div class="subscribe-one__shape-5 zoominout">
+                    <img src="frontend/assets/images/shapes/subscribe-one-shape-5.png" alt="">
+                </div>
+                <div class="subscribe-one__inner-content">
+                    <div class="subscribe-one__shape-3 float-bob-x">
+                        <img src="frontend/assets/images/shapes/subscribe-one-shape-3.png" alt="">
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <div class="subscribe-one__left">
+                                <div class="icon">
+                                    <span class="icon-folder"></span>
+                                </div>
+                                <div class="subscribe-one__title-box">
+                                    <span class="subscribe-one__tagline">Quisque vel ortor</span>
+                                    <h2 class="subscribe-one__title">Subscribe to newsletter</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="subscribe-one__right">
+                                <div class="subscribe-one__shape-6 float-bob-x">
+                                    <img src="frontend/assets/images/shapes/subscribe-one-shape-6.png" alt="">
+                                </div>
+                                <div class="subscribe-one__form-box">
+                                    <form class="subscribe-one__form mc-form" data-url="MC_FORM_URL">
+                                        <div class="subscribe-one__input-box">
+                                            <input type="email" placeholder="Email Address" name="email">
+                                            <button type="submit" class="subscribe-one__btn"><i
+                                                    class="fas fa-paper-plane"></i></button>
+                                        </div>
+                                    </form>
+                                    <div class="mc-form__response"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--Subscribe One End-->
+    </section>
 @endsection
