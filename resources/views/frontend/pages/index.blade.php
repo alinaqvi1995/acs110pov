@@ -1,6 +1,9 @@
 @extends('frontend.layouts.app')
 @section('title', "Indigo - Pakistan's Favorite Grocery Store for Best Prices & Free Delivery")
 @section('content')
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
     <section class="main-slider-three">
         <div class="main-slider-three__bg-shape-2"
             style="background-image: url(frontend/assets/images/shapes/main-slider-three-bg-shape-2.png);"></div>
@@ -47,24 +50,24 @@
                 <div class="col-xl-9 col-lg-8">
                     <div class="main-slider-three__right">
                         <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
-            "effect": "fade",
-            "pagination": {
-            "el": "#main-slider-pagination",
-            "type": "bullets",
-            "clickable": true
-            },
-            "navigation": {
-            "nextEl": "#main-slider__swiper-button-next",
-            "prevEl": "#main-slider__swiper-button-prev"
-            },
-            "autoplay": {
-            "delay": 5000
-            }}'>
+                                "effect": "fade",
+                                "pagination": {
+                                "el": "#main-slider-pagination",
+                                "type": "bullets",
+                                "clickable": true
+                                },
+                                "navigation": {
+                                "nextEl": "#main-slider__swiper-button-next",
+                                "prevEl": "#main-slider__swiper-button-prev"
+                                },
+                                "autoplay": {
+                                "delay": 5000
+                                }}'>
                             <div class="swiper-wrapper">
 
                                 <div class="swiper-slide">
                                     <div class="image-layer-three">
-                                        <img src="frontend/assets/images/backgrounds/main-slider-3-1.png" alt="">
+                                        <img src="frontend/assets/images/backgrounds/main-slider-3-1.webp" alt="">
                                     </div>
                                     <div class="main-slider-three__bg-shape-1"
                                         style="background-image: url(frontend/assets/images/shapes/main-slider-three-bg-shape-1.jpg);">
@@ -85,7 +88,7 @@
 
                                 <div class="swiper-slide">
                                     <div class="image-layer-three image-layer-three--2">
-                                        <img src="frontend/assets/images/backgrounds/main-slider-3-2.png" alt="">
+                                        <img src="frontend/assets/images/backgrounds/main-slider-3-2.webp" alt="">
                                     </div>
                                     <div class="main-slider-three__bg-shape-1"
                                         style="background-image: url(frontend/assets/images/shapes/main-slider-three-bg-shape-1.jpg);">
@@ -106,7 +109,7 @@
 
                                 <div class="swiper-slide">
                                     <div class="image-layer-three image-layer-three--3">
-                                        <img src="frontend/assets/images/backgrounds/main-slider-3-3.png" alt="">
+                                        <img src="frontend/assets/images/backgrounds/main-slider-3-3.webp" alt="">
                                     </div>
                                     <div class="main-slider-three__bg-shape-1"
                                         style="background-image: url(frontend/assets/images/shapes/main-slider-three-bg-shape-1.jpg);">
@@ -161,7 +164,7 @@
                             </div>
                             <div class="feature-three__content">
                                 <h3 class="feature-three__title">Free shipping</h3>
-                                <p class="feature-three__subtitle">On all orders over $60.00</p>
+                                <p class="feature-three__subtitle">On all orders over RS 60.00</p>
                             </div>
                         </div>
                     </li>
@@ -197,7 +200,7 @@
                         <div class="hot-products__single-inner">
                             <div class="hot-products__img-box">
                                 <div class="hot-products__img">
-                                    <img src="frontend/assets/images/resources/hot-product-1-1.jpg" alt="">
+                                    <img src="frontend/assets/images/resources/hot-product-1-1.webp" alt="">
                                 </div>
                             </div>
                             <div class="hot-products__content">
@@ -209,7 +212,7 @@
                                     <i class="fa fa-star"></i>
                                 </div>
                                 <h3 class="hot-products__title"><a href="product-details.html">Bananas</a></h3>
-                                <p class="hot-products__price">$18.00</p>
+                                <p class="hot-products__price">RS 18.00</p>
                                 <div class="hot-products__btn-box">
                                     <a href="cart.html" class="hot-products__btn thm-btn">Add to cart</a>
                                 </div>
@@ -228,7 +231,7 @@
                         <div class="hot-products__single-inner">
                             <div class="hot-products__img-box">
                                 <div class="hot-products__img">
-                                    <img src="frontend/assets/images/resources/hot-product-1-2.jpg" alt="">
+                                    <img src="frontend/assets/images/resources/hot-product-1-2.webp" alt="">
                                 </div>
                             </div>
                             <div class="hot-products__content">
@@ -240,7 +243,7 @@
                                     <i class="fa fa-star"></i>
                                 </div>
                                 <h3 class="hot-products__title"><a href="product-details.html">Potatos</a></h3>
-                                <p class="hot-products__price">$22.00</p>
+                                <p class="hot-products__price">RS 22.00</p>
                                 <div class="hot-products__btn-box">
                                     <a href="cart.html" class="hot-products__btn thm-btn">Add to cart</a>
                                 </div>
@@ -259,7 +262,7 @@
                         <div class="hot-products__single-inner">
                             <div class="hot-products__img-box">
                                 <div class="hot-products__img">
-                                    <img src="frontend/assets/images/resources/hot-product-1-3.jpg" alt="">
+                                    <img src="frontend/assets/images/resources/hot-product-1-3.webp" alt="">
                                 </div>
                             </div>
                             <div class="hot-products__content">
@@ -271,7 +274,7 @@
                                     <i class="fa fa-star"></i>
                                 </div>
                                 <h3 class="hot-products__title"><a href="product-details.html">Apples</a></h3>
-                                <p class="hot-products__price">$16.00</p>
+                                <p class="hot-products__price">RS 16.00</p>
                                 <div class="hot-products__btn-box">
                                     <a href="cart.html" class="hot-products__btn thm-btn">Add to cart</a>
                                 </div>
@@ -290,7 +293,7 @@
                         <div class="hot-products__single-inner">
                             <div class="hot-products__img-box">
                                 <div class="hot-products__img">
-                                    <img src="frontend/assets/images/resources/hot-product-1-4.jpg" alt="">
+                                    <img src="frontend/assets/images/resources/hot-product-1-4.webp" alt="">
                                 </div>
                             </div>
                             <div class="hot-products__content">
@@ -302,7 +305,7 @@
                                     <i class="fa fa-star"></i>
                                 </div>
                                 <h3 class="hot-products__title"><a href="product-details.html">Lettus</a></h3>
-                                <p class="hot-products__price">$9.00</p>
+                                <p class="hot-products__price">RS 9.00</p>
                                 <div class="hot-products__btn-box">
                                     <a href="cart.html" class="hot-products__btn thm-btn">Add to cart</a>
                                 </div>
@@ -325,7 +328,7 @@
                     <div class="banner-three__left">
                         <div class="banner-three__inner">
                             <div class="banner-three__inner-bg"
-                                style="background-image: url(frontend/assets/images/backgrounds/banner-three-bg-1.jpg);">
+                                style="background-image: url(frontend/assets/images/backgrounds/banner-three-bg-1.webp);">
                             </div>
                             <p class="banner-three__tagline">Organic Food</p>
                             <h3 class="banner-three__title">Fresh <br> Avocado</h3>
@@ -339,7 +342,7 @@
                     <div class="banner-three__middle">
                         <div class="banner-three__middle-inner">
                             <div class="banner-three__img-2">
-                                <img src="frontend/assets/images/resources/banner-three-img-2.png" alt="">
+                                <img src="frontend/assets/images/resources/banner-three-img-2.webp" alt="">
                             </div>
                             <div class="banner-three__shape-1">
                                 <img src="frontend/assets/images/shapes/banner-three-middel-shape-1.png" alt="">
@@ -365,7 +368,7 @@
                                 <img src="frontend/assets/images/shapes/banner-three-right-shape-1.png" alt="">
                             </div>
                             <div class="banner-three__img-3">
-                                <img src="frontend/assets/images/resources/banner-three-img-3.png" alt="">
+                                <img src="frontend/assets/images/resources/banner-three-img-3.webp" alt="">
                             </div>
                             <div class="banner-three__right-title-box">
                                 <p class="banner-three__right-tagline">100% Healthy</p>
@@ -445,7 +448,7 @@
     </section>
     <section class="why-choose-two">
         <div class="why-choose-two__bg"
-            style="background-image: url(frontend/assets/images/backgrounds/why-choose-two-bg.jpg);"></div>
+            style="background-image: url(frontend/assets/images/backgrounds/why-choose-two-bg.webp);"></div>
         <div class="why-choose-two__shape-1 img-bounce">
             <img src="frontend/assets/images/shapes/why-choose-two-shape-1.png" alt="">
         </div>
@@ -607,7 +610,7 @@
                 <div class="item">
                     <div class="hot-product-three__single">
                         <div class="hot-product-three__img-box">
-                            <img src="frontend/assets/images/resources/hot-product-three-img-1-1.jpg" alt="">
+                            <img src="frontend/assets/images/resources/hot-product-three-img-1-1.webp" alt="">
                             <div class="hot-product-three__icon-boxes">
                                 <a href="#"><i class="far fa-heart"></i></a>
                                 <a href="#"><i class="fas fa-eye"></i></a>
@@ -627,7 +630,7 @@
                             <p class="hot-product-three__text">There are many new varia of pasages of available
                                 text.</p>
                             <div class="hot-product-three__price-box">
-                                <h4>$86.00 <span>$90.00</span></h4>
+                                <h4>RS 86.00 <span>RS 90.00</span></h4>
                             </div>
                             <div class="hot-product-three__btn-box">
                                 <a href="cart.html" class="thm-btn hot-product-three__btn">Add to cart</a>
@@ -643,12 +646,10 @@
                         </div>
                     </div>
                 </div>
-                <!--Hot Product Three Single End-->
-                <!--Hot Product Three Single Start-->
                 <div class="item">
                     <div class="hot-product-three__single">
                         <div class="hot-product-three__img-box">
-                            <img src="frontend/assets/images/resources/hot-product-three-img-1-2.jpg" alt="">
+                            <img src="frontend/assets/images/resources/hot-product-three-img-1-2.webp" alt="">
                             <div class="hot-product-three__icon-boxes">
                                 <a href="#"><i class="far fa-heart"></i></a>
                                 <a href="#"><i class="fas fa-eye"></i></a>
@@ -668,7 +669,7 @@
                             <p class="hot-product-three__text">There are many new varia of pasages of available
                                 text.</p>
                             <div class="hot-product-three__price-box">
-                                <h4>$86.00 <span>$90.00</span></h4>
+                                <h4>RS 86.00 <span>RS 90.00</span></h4>
                             </div>
                             <div class="hot-product-three__btn-box">
                                 <a href="cart.html" class="thm-btn hot-product-three__btn">Add to cart</a>
@@ -684,8 +685,6 @@
                         </div>
                     </div>
                 </div>
-                <!--Hot Product Three Single End-->
-                <!--Hot Product Three Single Start-->
                 <div class="item">
                     <div class="hot-product-three__single">
                         <div class="hot-product-three__img-box">
@@ -709,7 +708,7 @@
                             <p class="hot-product-three__text">There are many new varia of pasages of available
                                 text.</p>
                             <div class="hot-product-three__price-box">
-                                <h4>$86.00 <span>$90.00</span></h4>
+                                <h4>RS 86.00 <span>RS 90.00</span></h4>
                             </div>
                             <div class="hot-product-three__btn-box">
                                 <a href="cart.html" class="thm-btn hot-product-three__btn">Add to cart</a>
@@ -725,122 +724,9 @@
                         </div>
                     </div>
                 </div>
-                <!--Hot Product Three Single End-->
             </div>
         </div>
     </section>
-    {{-- <section class="team-two">
-        <div class="container">
-            <div class="section-title text-center">
-                <span class="section-title__tagline">Meet the Farmers</span>
-                <h2 class="section-title__title">Awesome farmers team <br> here to help you</h2>
-            </div>
-            <div class="row">
-                <!--Team Two Single Start-->
-                <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
-                    <div class="team-two__single">
-                        <div class="team-two__img-box">
-                            <div class="team-two__shape-4">
-                                <img src="frontend/assets/images/shapes/team-two-shape-4.png" alt="">
-                            </div>
-                            <div class="team-two__shape-1">
-                                <img src="frontend/assets/images/shapes/team-two-shape-1.png" alt="">
-                                <div class="team-two__img">
-                                    <img src="frontend/assets/images/team/team-2-1.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-two__content">
-                            <div class="team-two__shape-2">
-                                <img src="frontend/assets/images/shapes/team-two-shape-2.png" alt="">
-                            </div>
-                            <div class="team-two__shape-3">
-                                <img src="frontend/assets/images/shapes/team-two-shape-3.png" alt="">
-                            </div>
-                            <div class="team-two__title-box">
-                                <h3 class="team-two__title"><a href="team.html">Kevin martin</a></h3>
-                                <p class="team-two__sub-title">Senior Farmer</p>
-                            </div>
-                            <div class="team-two__social-box">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Team Two Single End-->
-                <!--Team Two Single Start-->
-                <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-                    <div class="team-two__single">
-                        <div class="team-two__img-box">
-                            <div class="team-two__shape-4">
-                                <img src="frontend/assets/images/shapes/team-two-shape-4.png" alt="">
-                            </div>
-                            <div class="team-two__shape-1">
-                                <img src="frontend/assets/images/shapes/team-two-shape-1.png" alt="">
-                                <div class="team-two__img">
-                                    <img src="frontend/assets/images/team/team-2-2.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-two__content">
-                            <div class="team-two__shape-2">
-                                <img src="frontend/assets/images/shapes/team-two-shape-2.png" alt="">
-                            </div>
-                            <div class="team-two__shape-3">
-                                <img src="frontend/assets/images/shapes/team-two-shape-3.png" alt="">
-                            </div>
-                            <div class="team-two__title-box">
-                                <h3 class="team-two__title"><a href="team.html">Aleesha brown</a></h3>
-                                <p class="team-two__sub-title">Senior Farmer</p>
-                            </div>
-                            <div class="team-two__social-box">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Team Two Single End-->
-                <!--Team Two Single Start-->
-                <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
-                    <div class="team-two__single">
-                        <div class="team-two__img-box">
-                            <div class="team-two__shape-4">
-                                <img src="frontend/assets/images/shapes/team-two-shape-4.png" alt="">
-                            </div>
-                            <div class="team-two__shape-1">
-                                <img src="frontend/assets/images/shapes/team-two-shape-1.png" alt="">
-                                <div class="team-two__img">
-                                    <img src="frontend/assets/images/team/team-2-3.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-two__content">
-                            <div class="team-two__shape-2">
-                                <img src="frontend/assets/images/shapes/team-two-shape-2.png" alt="">
-                            </div>
-                            <div class="team-two__shape-3">
-                                <img src="frontend/assets/images/shapes/team-two-shape-3.png" alt="">
-                            </div>
-                            <div class="team-two__title-box">
-                                <h3 class="team-two__title"><a href="team.html">Mike hardson</a></h3>
-                                <p class="team-two__sub-title">Senior Farmer</p>
-                            </div>
-                            <div class="team-two__social-box">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Team Two Single End-->
-            </div>
-        </div>
-    </section> --}}
     <section class="testimonial-two">
         <div class="testimonial-two__bg"
             style="background-image: url(frontend/assets/images/backgrounds/testimonial-two-bg.jpg);"></div>
@@ -964,7 +850,7 @@
             </div>
         </div>
     </section>
-    <section class="gallery-three">
+    {{-- <section class="gallery-three">
         <div class="container">
             <div class="gallery-three__carousel owl-carousel owl-theme thm-owl__carousel" data-owl-options='{
                 "loop": true,
@@ -1076,7 +962,7 @@
                 <!--Gallery Three Single End-->
             </div>
         </div>
-    </section>
+    </section> --}}
     <section class="news-two">
         <div class="container">
             <div class="section-title text-center">
@@ -1090,7 +976,7 @@
                     <div class="news-one__single">
                         <div class="news-one__img-box">
                             <div class="news-one__img">
-                                <img src="frontend/assets/images/blog/news-1-1.jpg" alt="">
+                                <img src="frontend/assets/images/blog/news-1-1.webp" alt="">
                             </div>
                         </div>
                         <div class="news-one__content-box">
@@ -1124,7 +1010,7 @@
                     <div class="news-one__single">
                         <div class="news-one__img-box">
                             <div class="news-one__img">
-                                <img src="frontend/assets/images/blog/news-1-2.jpg" alt="">
+                                <img src="frontend/assets/images/blog/news-1-2.webp" alt="">
                             </div>
                         </div>
                         <div class="news-one__content-box">
@@ -1158,7 +1044,7 @@
                     <div class="news-one__single">
                         <div class="news-one__img-box">
                             <div class="news-one__img">
-                                <img src="frontend/assets/images/blog/news-1-3.jpg" alt="">
+                                <img src="frontend/assets/images/blog/news-1-3.webp" alt="">
                             </div>
                         </div>
                         <div class="news-one__content-box">
