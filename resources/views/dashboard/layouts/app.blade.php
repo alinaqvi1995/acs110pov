@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Minimal Admin & Dashboard Template" name="description">
     <meta content="Themesbrand" name="author">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- App favicon -->
     <link rel="shortcut icon" href="{{ asset('backend/assets/images/favicon.ico') }}">
     <!-- Fonts css load -->
@@ -614,7 +615,8 @@
                                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <span class="d-flex align-items-center">
                                         <img class="rounded-circle header-profile-user"
-                                            src="{{ asset('backend/assets/images/users/32/avatar-1.jpg') }}" alt="Header Avatar">
+                                            src="{{ asset('backend/assets/images/users/32/avatar-1.jpg') }}"
+                                            alt="Header Avatar">
                                         <span class="text-start ms-xl-2">
                                             <span
                                                 class="d-none d-xl-inline-block ms-1 fw-medium user-name-text">Richard
@@ -1222,8 +1224,9 @@
                                 </div>
                                 <div class="avatar-lg">
                                     <div class="avatar-title bg-light rounded-3">
-                                        <img src="{{ asset('backend/assets/images/users/user-dummy-img.jpg') }}" alt=""
-                                            id="customer-img" class="avatar-md h-auto rounded-3 object-fit-cover">
+                                        <img src="{{ asset('backend/assets/images/users/user-dummy-img.jpg') }}"
+                                            alt="" id="customer-img"
+                                            class="avatar-md h-auto rounded-3 object-fit-cover">
                                     </div>
                                 </div>
                             </div>
@@ -1416,8 +1419,8 @@
                                     <input class="form-check-input" type="radio" name="data-bs-theme"
                                         id="layout-mode-light" value="light">
                                     <label class="form-check-label p-0 bg-transparent" for="layout-mode-light">
-                                        <img src="{{ asset('backend/assets/images/custom-theme/light-mode.png') }}" alt=""
-                                            class="img-fluid">
+                                        <img src="{{ asset('backend/assets/images/custom-theme/light-mode.png') }}"
+                                            alt="" class="img-fluid">
                                     </label>
                                 </div>
                                 <h5 class="fs-sm text-center fw-medium mt-2">Light</h5>
@@ -1428,8 +1431,8 @@
                                     <input class="form-check-input" type="radio" name="data-bs-theme"
                                         id="layout-mode-dark" value="dark">
                                     <label class="form-check-label p-0 bg-transparent" for="layout-mode-dark">
-                                        <img src="{{ asset('backend/assets/images/custom-theme/dark-mode.png') }}" alt=""
-                                            class="img-fluid">
+                                        <img src="{{ asset('backend/assets/images/custom-theme/dark-mode.png') }}"
+                                            alt="" class="img-fluid">
                                     </label>
                                 </div>
                                 <h5 class="fs-sm text-center fw-medium mt-2">Dark</h5>
@@ -1868,8 +1871,8 @@
                                 <input class="form-check-input" type="radio" name="data-sidebar-image"
                                     id="sidebarimg-01" value="img-1">
                                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-01">
-                                    <img src="{{ asset('backend/assets/images/sidebar/img-sm-1.jpg') }}" alt=""
-                                        class="avatar-md w-auto object-cover">
+                                    <img src="{{ asset('backend/assets/images/sidebar/img-sm-1.jpg') }}"
+                                        alt="" class="avatar-md w-auto object-cover">
                                 </label>
                             </div>
 
@@ -1877,24 +1880,24 @@
                                 <input class="form-check-input" type="radio" name="data-sidebar-image"
                                     id="sidebarimg-02" value="img-2">
                                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-02">
-                                    <img src="{{ asset('backend/assets/images/sidebar/img-sm-2.jpg') }}" alt=""
-                                        class="avatar-md w-auto object-cover">
+                                    <img src="{{ asset('backend/assets/images/sidebar/img-sm-2.jpg') }}"
+                                        alt="" class="avatar-md w-auto object-cover">
                                 </label>
                             </div>
                             <div class="form-check sidebar-setting card-radio">
                                 <input class="form-check-input" type="radio" name="data-sidebar-image"
                                     id="sidebarimg-03" value="img-3">
                                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-03">
-                                    <img src="{{ asset('backend/assets/images/sidebar/img-sm-3.jpg') }}" alt=""
-                                        class="avatar-md w-auto object-cover">
+                                    <img src="{{ asset('backend/assets/images/sidebar/img-sm-3.jpg') }}"
+                                        alt="" class="avatar-md w-auto object-cover">
                                 </label>
                             </div>
                             <div class="form-check sidebar-setting card-radio">
                                 <input class="form-check-input" type="radio" name="data-sidebar-image"
                                     id="sidebarimg-04" value="img-4">
                                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-04">
-                                    <img src="{{ asset('backend/assets/images/sidebar/img-sm-4.jpg') }}" alt=""
-                                        class="avatar-md w-auto object-cover">
+                                    <img src="{{ asset('backend/assets/images/sidebar/img-sm-4.jpg') }}"
+                                        alt="" class="avatar-md w-auto object-cover">
                                 </label>
                             </div>
                         </div>
@@ -1983,19 +1986,22 @@
             </div>
         </div>
     </div>
-    <script src="backend/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="backend/assets/libs/simplebar/dist/simplebar.min.js"></script>
-    <script src="backend/assets/js/plugins.js"></script>
-    <script src="backend/assets/libs/list.js/dist/list.min.js"></script>
-    <script src="backend/assets/libs/list.pagination.js/dist/list.pagination.min.js"></script>
-    <script src="backend/assets/libs/sweetalert2/dist/sweetalert2.min.js"></script>
-    <script src="backend/assets/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
-    <script src="backend/assets/js/pages/ecommerce-customer.init.js"></script>
-    <script src="backend/assets/js/app.js"></script>
-    <script src="backend/assets/libs/apexcharts/dist/apexcharts.min.js"></script>
-    <script src="backend/assets/libs/echarts/dist/echarts.min.js"></script>
-    <script src="backend/assets/libs/swiper/swiper-bundle.min.js"></script>
-    <script src="backend/assets/js/pages/dashboard-ecommerce.init.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    @yield('extra_script')
+    <script src="{{ asset('backend/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/libs/simplebar/dist/simplebar.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/js/plugins.js') }}"></script>
+    <script src="{{ asset('backend/assets/libs/list.js/dist/list.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/libs/list.pagination.js/dist/list.pagination.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/libs/sweetalert2/dist/sweetalert2.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/libs/@ckeditor/ckeditor5-build-classic/build/ckeditor.js') }}"></script>
+    <script src="{{ asset('backend/assets/js/pages/ecommerce-customer.init.js') }}"></script>
+    <script src="{{ asset('backend/assets/js/app.js') }}"></script>
+    <script src="{{ asset('backend/assets/libs/apexcharts/dist/apexcharts.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/libs/echarts/dist/echarts.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/libs/swiper/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/js/pages/dashboard-ecommerce.init.js') }}"></script>
 </body>
 
 </html>

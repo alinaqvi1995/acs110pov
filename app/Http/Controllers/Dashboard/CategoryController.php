@@ -23,7 +23,7 @@ class CategoryController extends Controller
     {
         $request->validate([
             'name' => 'required|string|max:255',
-            'status' => 'required|boolean',
+            // 'status' => 'required|boolean',
         ]);
 
         Category::create($request->all());
