@@ -11,7 +11,7 @@ class CategoryController extends Controller
     public function index()
     {
         $categories = Category::all();
-        return view('dashboard.categories.index', compact('categories'));
+        return view('dashboard.pages.categories', compact('categories'));
     }
 
     public function create()

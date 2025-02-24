@@ -723,13 +723,13 @@
                     <a class="nav-link" aria-current="page" href="dashboard-ecommerce.html">Overview</a>
                 </li>
                 <li class="nav-item flex-shrink-0">
-                    <a class="nav-link" href="apps-ecommerce-products.html">Products</a>
+                    <a class="nav-link" href="{{ route('products.index') }}">Products</a>
                 </li>
                 <li class="nav-item flex-shrink-0">
                     <a class="nav-link" href="apps-ecommerce-product-details.html">Product Overview</a>
                 </li>
                 <li class="nav-item flex-shrink-0">
-                    <a class="nav-link" href="apps-ecommerce-add-product.html">Add Product</a>
+                    <a class="nav-link" href="{{ route('products.create') }}">Add Product</a>
                 </li>
                 <li class="nav-item flex-shrink-0">
                     <a class="nav-link" href="apps-ecommerce-cart.html">Shopping Cart</a>
@@ -2002,6 +2002,7 @@
     <script src="{{ asset('backend/assets/libs/echarts/dist/echarts.min.js') }}"></script>
     <script src="{{ asset('backend/assets/libs/swiper/swiper-bundle.min.js') }}"></script>
     <script src="{{ asset('backend/assets/js/pages/dashboard-ecommerce.init.js') }}"></script>
+    <script src="{{ asset('assets/libs/dropzone/dist/dropzone-min.js') }}"></script>
 </body>
 
 </html>

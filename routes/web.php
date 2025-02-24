@@ -6,6 +6,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Dashboard\DashboardController;
 use App\Http\Controllers\Dashboard\ProductController;
 use App\Http\Controllers\Dashboard\CategoryController;
+use App\Http\Controllers\Dashboard\BrandController;
+use App\Http\Controllers\Dashboard\UnitController;
+use App\Http\Controllers\Dashboard\TagController;
 
 Route::get('/', [FrontendController::class, 'index'])->name('/');
 Route::get('/products', [FrontendController::class, 'products'])->name('frontend.products');
@@ -22,6 +25,10 @@ Route::middleware('auth')->prefix('admin')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
     Route::resource('categories', CategoryController::class);
+    Route::resource('brands', BrandController::class);
+    Route::resource('units', UnitController::class);
+    Route::resource('tags', TagController::class);
+    Route::resource('products', ProductController::class);
 });
 
 require __DIR__.'/auth.php';
