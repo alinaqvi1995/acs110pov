@@ -23,4 +23,12 @@ class FrontendController extends Controller
     {
         return view('frontend.pages.products.product-detail');
     }
+    public function userAccount()
+    {
+        return view('frontend.pages.userprofile.index');
+    }
+    public function contactUs()
+    {
+        return view('frontend.pages.contactUs');
+    }
 }

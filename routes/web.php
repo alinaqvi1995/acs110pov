@@ -11,9 +11,11 @@ use App\Http\Controllers\Dashboard\UnitController;
 use App\Http\Controllers\Dashboard\TagController;
 
 Route::get('/', [FrontendController::class, 'index'])->name('/');
+Route::get('/user-account', [FrontendController::class, 'userAccount'])->name('user.account');
 Route::get('/products', [FrontendController::class, 'products'])->name('frontend.products');
 Route::get('/products/detail', [FrontendController::class, 'productsdetail'])->name('frontend.products.detail');
 Route::get('/wishlist', [FrontendController::class, 'wishlist'])->name('frontend.wishlist');
+Route::get('/contact-us', [FrontendController::class, 'contactUs'])->name('frontend.contact');
 
 Route::get('/orders', [DashboardController::class, 'orders'])->name('orders');
 Route::get('/add-product', [DashboardController::class, 'addProduct'])->name('addProduct');
